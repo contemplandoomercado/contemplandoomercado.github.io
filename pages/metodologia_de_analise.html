@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contemplando o Mercado, por Inácio Medeiros | Metodologia utilizada nas análises</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Contemplando o Mercado, por Inácio Medeiros Full Atom Feed" />
+    <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="" />
+    <meta name="author" content="Inácio Medeiros" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li class="selected"><a href="/pages/metodologia_de_analise.html">Metodologia utilizada nas análises</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="/">Contemplando o Mercado, por Inácio Medeiros</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">
+            <div class="page">
+                <h1>Metodologia utilizada nas análises</h1>
+                <p>A ideia por trás destas análises é analisar os movimentos realizados pelos
+prêmios de risco de diferentes classes de ativos do mercado financeiro. 
+As classes que analiso são:</p>
+<ul>
+<li>Títulos públicos do Tesouro dos EUA de curta duração (&lt; 3 anos)</li>
+<li>Títulos públicos do Tesouro dos EUA de duração intermediária (7-10 anos)</li>
+<li>Títulos públicos do Tesouro dos EUA de longa duração (20+ anos)</li>
+<li>Ações internacionais (Índice S&amp;P 500)</li>
+<li>Ações internacionais de empresas de crescimento (<em>Growth stocks</em>)</li>
+<li>Ações internacionais de empresas de valor (<em>Value stocks</em>)</li>
+<li>Mercado imobiliário norte-americano (<em>REITs</em>)</li>
+<li><em>Commodities</em> (especificamente Ouro, Prata, Urânio e Petróleo)</li>
+<li>Criptomoedas (especificamente Bitcoin e Ethereum)</li>
+</ul>
+<p>Eu utilizo um ETF para cada uma das classes de ativos acima, com exceção de
+criptomoedas, em que eu utilizo as próprias cotações do Bitcoin e do Ethereum,
+e das commodities, em que utilizo um ETF para cada commodity (sim, eu poderia
+utilizar <a href="https://etfdb.com/etf/DBC">DBC</a>. Preferi trabalhar dessa forma
+individual, porém, dado que são ativos de alto impacto na economia mundial).</p>
+<p>Os ETFs que utilizo são estes:</p>
+<table>
+<thead>
+<tr>
+<th>Classe</th>
+<th>ETF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Títulos públicos do Tesouro dos EUA de curta duração (&lt; 3 anos)</td>
+<td><a href="https://etfdb.com/etf/SHY">SHY</a></td>
+</tr>
+<tr>
+<td>Títulos públicos do Tesouro dos EUA de duração intermediária (7-10 anos)</td>
+<td><a href="https://etfdb.com/etf/IEF">IEF</a></td>
+</tr>
+<tr>
+<td>Títulos públicos do Tesouro dos EUA de longa duração (20+ anos)</td>
+<td><a href="https://etfdb.com/etf/TLT">TLT</a></td>
+</tr>
+<tr>
+<td>Ações internacionais (Índice S&amp;P 500)</td>
+<td><a href="https://etfdb.com/etf/IVV">IVV</a></td>
+</tr>
+<tr>
+<td>Ações internacionais de empresas de crescimento (<em>Growth stocks</em>)</td>
+<td><a href="https://etfdb.com/etf/VUG">VUG</a></td>
+</tr>
+<tr>
+<td>Ações internacionais de empresas de valor (<em>Value stocks</em>)</td>
+<td><a href="https://etfdb.com/etf/ILCV">ILCV</a></td>
+</tr>
+<tr>
+<td>Commodities (Ouro)</td>
+<td><a href="https://etfdb.com/etf/IAU">IAU</a></td>
+</tr>
+<tr>
+<td>Commodities (Prata)</td>
+<td><a href="https://etfdb.com/etf/SLV">SLV</a></td>
+</tr>
+<tr>
+<td>Commodities (Urânio)</td>
+<td><a href="https://etfdb.com/etf/URA">URA</a></td>
+</tr>
+<tr>
+<td>Commodities (Petróleo)</td>
+<td><a href="https://etfdb.com/etf/XOP">XOP</a></td>
+</tr>
+<tr>
+<td>Mercado imobiliário norte-americano (<em>REITs</em>)</td>
+<td><a href="https://etfdb.com/etf/VNQ">VNQ</a></td>
+</tr>
+</tbody>
+</table>
+<p>Chamo de "prêmio de risco" o retorno mensal de um ativo em Reais (BRL, R$) 
+subtraído da taxa de juros brasileira (SELIC) e da inflação brasileira (IPCA).</p>
+<h2>Coleta e preparação dos dados</h2>
+<p>Inicialmente eu baixei os dados de cotações de todos os ETFs acima + Bitcoin e
+Ethereum desde 01/01/2000 (em praticamente todos os casos, a data inicial
+acabou sendo após 01/01/2000). Mês após mês vou baixando as cotações mais
+recentes. Após ter baixado tudo, converto as cotações para Reais, e então 
+calculo os retornos mensais de cada classe. Em seguida, faço as devidas
+subtrações para ficar só com os devidos prêmios de risco.</p>
+<h2>Análise dos prêmios de risco</h2>
+<p>As análises que temos/teremos no blog serão concentradas em dois pontos:</p>
+<ol>
+<li>Movimentação dos prêmios de risco</li>
+<li>Correlações das classes de ativos com base nos prêmios de risco</li>
+</ol>
+<p>Em relação ao item "1", pretendo trazer gráficos mostrando as movimentações
+históricas (desde 01/01/2000) junto com as dos últimos três meses. Com isso,
+poderemos visualizar, por exmeplo, os estágios de ciclo em que cada classe
+estará.</p>
+<p>Em relação ao item "2", pretendo trazer mapas de calor (<em>heatmaps</em>) das
+classes, para podermos visualizar quem está caminhando junto e quem não. Assim
+como nos gráficos, pretendo trazer de todo o período e dos últimos três meses.
+Pretendo também agrupar as classes de Títulos, Ações e Commodities em "classes
+macro", para então calcular as correlações entre elas com as demais.</p>
+<p>Por mim, a depender do momento, pretendo também trazer análise dos gráficos
+dos preços das classes. A princípio será somente do Bitcoin. Havendo interesse
+ou necessidade, trarei de outros ativos também.</p>
+<h2>Feedbacks e Discussão</h2>
+<p>Notou que tem algo de errado nas análises? Algo ficou sem sentido em algum
+texto ou figura? Não deixe de entrar em contato com a gente: mande sua dúvida,
+sugestão etc. para o e-mail abaixo:</p>
+<blockquote>
+<p>contemplandoomercado@gmail.com</p>
+</blockquote>
+            </div>
+
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
