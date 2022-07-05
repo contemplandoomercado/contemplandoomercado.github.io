@@ -1,5 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-06-18T10:00:00-03:00</updated><entry><title>Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</title><link href="/bitcoin_20220618.html" rel="alternate"></link><published>2022-06-18T10:00:00-03:00</published><updated>2022-06-18T10:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-06-18:/bitcoin_20220618.html</id><summary type="html">&lt;p&gt;Análise do Bitcoin em 18 de junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-07-05T14:40:00-03:00</updated><entry><title>Análises - Junho de 2022</title><link href="/analises_2022_07.html" rel="alternate"></link><published>2022-07-05T14:40:00-03:00</published><updated>2022-07-05T14:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-07-05:/analises_2022_07.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
+que fizemos aqui para entender como interpretar os gráficos de prêmios de
+risco. Confira também a &lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
+para entender como geramos as figuras das análises.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Bem galera, continuando com a nossa programação normal, vamos às análises do
+mês de Junho de 2022, marcado pelo São João no Nordeste Brasileiro e pelo
+"histórico" derretimento do Bitcoin. Por causa disso, nossa análise este
+mês será feita "de trás para frente", começando com criptos, e terminando
+com títulos públicos dos Estados Unidos.&lt;/p&gt;
+&lt;h2&gt;Movimento dos prêmios de risco&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="/images/2022_07_risk_premium_movements.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 1 - Movimento dos prêmios de risco&lt;/p&gt;
+
+&lt;p&gt;Conforme &lt;a href="/bitcoin_20220618.html"&gt;eu comentei em Junho de 2022&lt;/a&gt;, o
+Bitcoin caiu tanto que perdeu até mesmo um topo histórico anterior. E vejam
+só! O prêmio de risco da criptomoeda &lt;strong&gt;bateu no quantil de 1%&lt;/strong&gt;, e logo após
+isso começou a subir! Se olharmos para o histórico do prêmio, veremos que
+a última vez que isto aconteceu foi em 2021: o prêmio bateu duas vezes
+no quantil de 1% e em seguida subiu até atingir um patamar superior a 50%.
+Outro período em que este quantil foi atingido foi entre 2018 e 2019, durante
+o famoso &lt;em&gt;crash&lt;/em&gt;. Isto pode sugerir (e lembrem-se, &lt;strong&gt;NÃO É&lt;/strong&gt; recomendação) que
+estamos em momento oportuno de se comprar Bitcoin (pensando por um outra ótica,
+o preço está bem barato). Olhando agora o prêmio de risco Ethereum, podemos
+ver que fez movimento equivalente ao do Bitcoin. Ele também cruzou o quantil
+de 1% em 2021, porém uma única vez.&lt;/p&gt;
+&lt;p&gt;De toda forma, é importante atentar que o finalzinho de ambos os gráficos
+(Bitcoin e Ethereum, e aqui vale salientar que o último ponto do gráfico é
+do dia 29/06) mostram que os prêmios estão &lt;strong&gt;caindo&lt;/strong&gt;. Ou seja: nada impede
+que ainda vejamos em Julho um pouco mais de queda (aliás, até o momento 
+que escrevo esta postagem, esta queda já aconteceu).&lt;/p&gt;
+&lt;p&gt;Vamos agora para as commodities. Eu comentei na análise anterior duas coisas:
+(a) que o Urânio (URA) estava iniciando uma movimentação de alta a partir de
+um fundo próximo do quantil de 1%; e (b) que a prata (SLV) estava se
+aproximando do quantil de 1%. Em relação ao prêmio do Urânio, podemos dizer
+agora que realmente era um movimento de alta que estava se iniciando. O prêmio
+de risco do Urânio inclusive chegou a atingir valores positivos (!), porém
+terminou o mês (até 29/06, pelo menos) na zona negativa. Outro ponto
+importante a se dizer é que esse movimento de alta foi carregado de
+volatilidade (um sobe-e-desce violente), um pouco similar inclusive ao que
+aconteceu com o Bitcoin em 2021. Em relação ao prêmio da prata, também vimos
+um movimento de alta no mês de Junho, porém com bem menos volatilidade. O
+prêmio de risco do Ouro também passou por isso e, diferente das outras duas
+commodities, terminou o mês na zona positiva (com alguma possibilidade de
+continuar subindo, inclusive). O movimento do prêmio do Petróleo (XOP) foi
+o que destoou dos demais: começou o mês subindo, ficando inclusive entre 5
+e 10 pontos percentuais do quantil de 99%, e logo em seguida fez uma queda
+de modo que terminou o mês na zona negativa.&lt;/p&gt;
+&lt;p&gt;Partindo agora para ações e REITS, vemos que o mês de Junho foi
+marcado por uma alta volatilidade. O movimento do prêmio de risco do 
+S&amp;amp;P 500 (IVV) refletiu bastante o repique nos preços que aconteceram
+durante o período. Apesar da alta volatilidade, os prêmios de risco do 
+S&amp;amp;P 500, açoes de crescimento (VUG) e REITS (VNQ) aumentaram em relação
+ao início do mês. O prêmio das ações de valor (ILCV) ficou virtualmente
+no "zero a zero". Apesar disso, o desenho que se visualiza tanto no curto
+prazo como em relação ao histórico é que poderemos ter um mês de Julho
+de movimentação de alta novamente nos prêmios (e lembrem-se, &lt;strong&gt;NÃO É&lt;/strong&gt;
+recomendação).&lt;/p&gt;
+&lt;p&gt;Fechando essa parte das análises com os prêmios de risco dos Títulos
+americanos. Na análise anterior, eu comentei que poderíamos ver movimentos
+corretivos nos prêmios dos Títulos no mês de Junho, e realmente isto
+aconteceu. Além disso, Junho foi um mês de alta volatilidade para estes
+prêmios, especialmente para os de curto prazo (SHY), que cruzaram de zona
+várias vezes. Notamos porém uma coisa interessante: todos fecharam o mês
+na zona positiva, e virtualmente no "zero-a-zero" (na prática, com um pouco
+de  aumento). Nisso é importante darmos um destaque especial para os de longo
+prazo (TLT): eles estavam na zona negativa desde antes do início de 2022,
+e agora finalmente passaram dela. Olhando para o desenho dos históricos,
+a aparência é de que talvez os prêmios aumentem ainda mais nas próximas
+semanas. No entanto, a escalada nas taxas de juros do FED pode fazer com
+que esse movimento se inverta rapidamente. Seguiremos monitorando.&lt;/p&gt;
+&lt;p&gt;Agora que discutimos bastante sobre os movimentos dos prêmios,
+vamos dar uma olhada nas correlações entre eles.&lt;/p&gt;
+&lt;h2&gt;Quadro de correlações&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Quadro de correlações" src="/images/2022_07_correlations_board.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 2 - Quadro de correlações&lt;/p&gt;
+
+&lt;p&gt;Vamo lá: se formos comparar as correlações históricas atuais com as que eu
+postei mês passado, veremos que as mudanças foram "insignificantes". Isto
+é natural, posto que foi a adição em um mês a um período de quase duas décadas.
+Uma coisa que aconteceu bastante foram mudanças de 1 ponto percentual. Por
+exemplo, a correlação os prêmios de Títulos Longos (TLT) e S&amp;amp;P 500 (IVV) saiu
+de 0.41 para 0.42. A dos Prêmios de S&amp;amp;P e REIS também aumentou, de 0.84 para 0.85.
+Isso inclusive coincide com os movimentos que analisamos nas curvas históricas:
+ambos os Títulos, as Ações e os REITS passaram por forte volatilidade culminando
+no aumento dos prêmios de risco.&lt;/p&gt;
+&lt;p&gt;Agora um fato curioso: a correlação entre Títulos Curtos e Médios (SHY e IEF)
+com as Criptos permaneceu &lt;em&gt;intacta&lt;/em&gt;, enquanto que a de Títulos Longos aumentou
+1 ponto percentual (de 0.09 para 0.1 TLT-BTC e de 0.04 para 0.05 TLT-ETH).
+Considerando este tímido aumento de correlação junto com o fato do TLT ter
+fechado o mês na zona positiva após um longo período na zona negativa um sinal
+de que algo semelhante acontecerá com as criptos? Há uma possibilidade que sim.
+De toda forma, é imporante lembrar que tudo pode acontecer no mundo cripto.
+(Mais uma vez) Seguiremos monitorando.&lt;/p&gt;
+&lt;p&gt;A história muda, porém, quando olhamos para as correlações dos últimos três
+meses. As correlações entre Títulos e Criptos &lt;em&gt;diminuiram&lt;/em&gt; 10% na média.
+Por exemplo, TLT-BTC saiu de -0.52 para -0.64. IEF-BTC saiu de -0.6 para 
+-0.7, e TLT-ETH de -0.6 para -0.73. É importante apontar, porém, que este
+aumento de correlação negativa também pode ser um sinal das criptos estarem
+pelo menos próximas de um fundo, posto que, geralmente, corelações nestes 
+patamares podem indicar que as duas classes em algum momento próximo poderão
+inverter seus movimentos (quem está subindo cairá, e quem está caindo subirá).
+Importante apontar também que, para "pessoas comuns" como a gente, não dá para
+saber com exatidão quando (exatamente) ocorrerá este ponto de inflexão, como já
+diria Richard Rytenband &lt;a href="https://twitter.com/RRytenband/status/1538237375498919936"&gt;aqui&lt;/a&gt;
+e &lt;a href="https://twitter.com/RRytenband/status/1542162905579327488"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Correlações entre grupos de classes de ativos&lt;/h2&gt;
+&lt;p&gt;Para fechar o post, vamos colocar as diversas classes de ativos em grupos
+maiores e ver como se correlacionam:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="/images/2022_07_correlations_among_classes.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 3 - Correlações entre classes de ativos&lt;/p&gt;
+
+&lt;p&gt;Se comparando as classes individuais a gente percebe que houveram diferenças mínimas
+nas correlações históricas de um mês para o outro, isto se confirma quando observamos
+as correlações macro: tudo intacto, com exceção das criptos (e ainda assim, a correlação
+entre Criptos e Commodities se manteve). Por um lado, era até espeardo acontecer isso
+com as criptos, dado que Junho (e meses anteriores) foi marcado por quedas bastante
+acentuadas, principalmente por parte do Bitcoin. Temos aqui, porém uma anomalia muito
+peculiar: enquanto a correlação registrada em Maio para os grupos de Títulos US e REITS
+foi de 0.17, a registrada em Junho foi de &lt;strong&gt;0.0077&lt;/strong&gt;! Uma diminuição de mais de 15%!
+Tenho duas explicações para isso: (1) o código (ou os dados) que uso para gerar essas
+correlações "bugou"; (2) enquanto Títulos "andaram de lado" o mês todo, REITs tiveram
+uma franca expansão no prêmio de risco, ocasionando assim numa diminuição drástica nas
+correlações. Em relação a "(1)", seguiremos monitorando os números para vermos o que
+acontece. Em relação a "(2)", caso os prêmios dos Títulos façam movimentos mais
+direcionais agora em Julho, talvez vejamos esta correlação voltar a subir. Podemos estar
+diante de um momento &lt;em&gt;outlier&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Finalizando o post&lt;/h2&gt;
+&lt;p&gt;O mês de Junho foi marcado essencialmente pelo derretimento do Bitcoin,
+aumentando ainda mais as correlações negativas com os Títulos Americanos.
+De outro lado, os próprios Títulos estão todos no positivo, apesar das 
+políticas do FED, e os prêmios das ações iniciaram um movimento de alta
+interessante. Será que estamos próximos de uma "virada de ciclo", ou
+pelo menos iniciando os preparativos para uma? Os sinais indicam que sim,
+porém tudo pode acontecer (por isso que venho reiterado que nada aqui é 
+recomendação de compra ou venda). Só para fazer um contraponto, é importante
+apontar aqui que as correlações talvez ainda tenham espaço de se alargarem um
+pouco, assim como os movimentos que vimos este mês. Em um estudo que fiz ano
+passado, eu verifiquei que o mês de Julho, para praticamente &lt;em&gt;todo tipo de ativo&lt;/em&gt;
+em renda variável, é caracterizado, na média, por ser de alta. Vamos ver como
+vai ser este ano.&lt;/p&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</title><link href="/bitcoin_20220618.html" rel="alternate"></link><published>2022-06-18T10:00:00-03:00</published><updated>2022-06-18T10:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-06-18:/bitcoin_20220618.html</id><summary type="html">&lt;p&gt;Análise do Bitcoin em 18 de junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;&lt;span style="color:red"&gt;AVISO IMPORTANTE:&lt;/span&gt; todas as análises realizadas
 aqui &lt;strong&gt;NÃO&lt;/strong&gt; são (e nem implicam em) recomendações de compra ou venda de
 ativos financeiros. O objetivo dos posts deste blog é unicamente compartilhar
@@ -78,7 +220,7 @@ e com boa qualidade.&lt;/p&gt;
 &lt;p&gt;Títulos americanos, no geral, tiveram um rally de alta interessante
 no mês de maio, a ponto dos de curto (SHY) e médio (IEF) atingirem a zona
 positiva. Agora, neste iniciozinho de Junho, ele estão voltando a cair.
-Se eles seguirem a levada de ciclos dos últimos 3 anos, e possível que
+Se eles seguirem a levada de ciclos dos últimos 3 anos, é possível que
 vejamos agora um período de correção forte neles, o que de certa forma
 estaria em acordo com o FED anda fazendo: a subida nos júros desvaloriza
 os valores dos títuos, especialmente os de longo de prazo, que sofrem
