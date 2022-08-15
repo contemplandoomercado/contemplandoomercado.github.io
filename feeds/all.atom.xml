@@ -1,9 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-07-28T11:40:00-03:00</updated><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/all.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2022-08-15T11:20:00-03:00</updated><entry><title>Análises - Julho de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_08.html" rel="alternate"></link><published>2022-08-15T11:20:00-03:00</published><updated>2022-08-15T11:20:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-08-15:/analises_2022_08.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em julho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="https://contemplandoomercado.github.io/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
+que fizemos aqui para entender como interpretar os gráficos de prêmios de
+risco. Confira também a &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
+para entender como geramos as figuras das análises.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Estamos de volta! E aí pessoal, será que os Títulos de Curto Prazo (SHY)
+tiveram retorno positivo em Julho de 2022? Será que o petróleo (XOP) caiu? E as
+criptos? Vimos em Junho tanto o Bitcoin (BTC-USD) quando o Ethereum (ETH-USD)
+cruzarem o quantil de 1%. E aí? Será que subiram? Vamos ver como as classes de
+ativos se saíram no famoso &lt;em&gt;mês das férias&lt;/em&gt;. &lt;/p&gt;
+&lt;h2&gt;Movimento dos prêmios de risco&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_08_risk_premium_movements.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 1 - Movimento dos prêmios de risco&lt;/p&gt;
+
+&lt;p&gt;E não deu outra: Renda Fixa dos EUA (SHY, IEF e TLT), Ações (IVV, VUG e ILCV)
+e REITS (VNQ) em um mega rali de alta nos prêmios de risco, terminando o mês
+com um recuo. Enquanto nas classes de ações este recuo foi relativamente tímido
+comparado ao movimento de alta, na renda fixa ele já foi mais considerável, com
+destaque para o SHY, que devolveu praticamente todo o retorno (não por acaso a
+média de retornos dessa classe é bem pequena, não só no mês de Julho como nos
+outros meses).&lt;/p&gt;
+&lt;p&gt;Outro ponto que podemos perceber que aconteceu em comum entre renda fixa, 
+ações e REITS é que, se compararmos os gráficos dos últimos 3 meses com o
+histórico, veremos que os prêmios de risco atingiram "regiões de topo" também
+atingidas em momentos anteriores recentes, daí esse recuo no fim do mês. Nisto
+é importante destacarmos que a classe do S&amp;amp;P 500 (IVV) chegou bem próximo do
+quantil de 99%, e que a classe das ações de crescimento (VUG) &lt;u&gt;encostou&lt;/u&gt;
+no quantil. Os gráficos históricos nos mostram que os prêmios de risco se
+movimentam tal qual "gangorras", então a aproximação destas regiões de "topo
+histórico" nos levanta a possibilidade de mais recuo de Agosto em diante para
+os prêmios de risco das classes de ativos mencionadas anteriormente.&lt;/p&gt;
+&lt;p&gt;Se por um lado tivemos um rali com as classes comentadas acima, com Commodities
+(IAU, SLV, XOP e URA) a coisa foi diferente: ouro (IAU) e prata (SLV) passaram
+o mês "patinando", fechando Julho com os prêmios de risco na zona negativa.
+Urânio (URA), por outro lado, fechou na zona positiva. Petróleo, por fim,
+passou o mês em queda livre, seguindo seu "comportamento padrão" para o mês
+como vimos &lt;a href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html"&gt;aqui&lt;/a&gt;. Rytenband
+recentemente postou uma &lt;a href="https://www.instagram.com/stories/highlights/17944251212134055"&gt;análise da prata&lt;/a&gt;
+em seus stories no Instagram demonstrando que estamos em um bom momento para
+acumular da classe. Parando para analisar o gráfico histórico do prêmio de
+risco, veremos que ele, no fim de Julho, estava de fato numa região próxima
+a "fundos anteriores". No entanto, ainda há um espaço para cair ainda mais.
+Algo semelhante pode ser dito em relação ao ouro. Em relação ao Urânio,
+talvez ainda vejamos o prêmio continuar subindo em agosto.&lt;/p&gt;
+&lt;p&gt;Fechando as análises dos movimentos com criptos, comentamos no &lt;a href="analises_2022_07.md"&gt;mês passado&lt;/a&gt;
+sobre o toque no quantil de 1% e uma possível movimentação de alta. Eis que foi
+exatamente isso que aconteceu: um rali de alta expressivo, principalmente para
+o ETH-USD, cujo prêmio de risco fechou o mês em aproximadamente 50%. Realmente,
+conforme vimos &lt;a href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html"&gt;aqui&lt;/a&gt;, o mês de Julho
+é bastante generoso para os prêmios de risco das criptomoedas.&lt;/p&gt;
+&lt;p&gt;Agora que discutimos bastante sobre os movimentos dos prêmios,
+vamos dar uma olhada nas correlações entre eles.&lt;/p&gt;
+&lt;h2&gt;Quadro de correlações&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_08_correlations_board.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 2 - Quadro de correlações&lt;/p&gt;
+
+&lt;p&gt;E mais uma vez, conforme comentamos na &lt;a href="analises_2022_07.md"&gt;análise de Junho&lt;/a&gt;
+também, as correlações &lt;em&gt;históricas&lt;/em&gt; dos prêmios das classes de ativos foram
+pouquíssimo alteradas, devido aquilo que já comentamos sobre o longo prazo.
+Logo, as maiores mudanças sempre estarão no curto prazo, reproduzindo,
+evidentemente, o que a gente já viu na seção de movimentos.&lt;/p&gt;
+&lt;p&gt;Comparando o quadro de Julho com o de Junho, poderemos ver que as cores estão
+mais "claras" nele, dado que quase todas as classes tiveram retornos positivos
+em conjunto. Por outro lado, a queda forte no Petróleo derrubou brutalmente
+a correlação dele com as demais classes, em especial com os títulos e ações.
+Por exemplo, enquanto a correlação dos prêmios de XOP e ILCV (ações de &lt;em&gt;value&lt;/em&gt;)
+estava em 0.38 em Junho, em Julho ela passou para -0.59, uma queda de 255%!.
+Para efeitos de comparação, a correlação entre os prêmios de S&amp;amp;P 500 e SHY
+(Títulos de Curto Prazo do Tesouro dos EUA), neste mesmo período, foi de
+aproximadamente 48%. Se por um lado as correlações do Petróleo derreteram,
+as das criptos andaram no extremo oposto: a correlação entre Ethereum e SHY,
+por exemplo, aumentou 94% neste mesmo período. Para quem segue estratégias
+como &lt;a href="https://www.investopedia.com/terms/r/risk-parity.asp"&gt;paridade de risco&lt;/a&gt;
+ou busca diversificar usando ativos com baixa correlação entre si, este tipo
+de dado pode conferir insights interessantes sobre momentos para
+rebalanceamento de carteira.&lt;/p&gt;
+&lt;p&gt;Outra elevação de correlações bastante supreendente para o período foi a dos
+prêmios de REITS com Títulos Públicos (SHY, IEF e TLT), que aumentou,
+respectivamente, de 0.11 para 0.38, de -0.03 para 0.43, e de -0.06 para 0.53.
+Eu comentei na análise mensal anterior que a baixíssima correlação de &lt;em&gt;Junho&lt;/em&gt;
+poderia ser decorrente de um provável &lt;em&gt;outlier&lt;/em&gt; ou então erro de código.
+Se compararmos a correlação observada em &lt;em&gt;Julho&lt;/em&gt; com a de &lt;em&gt;Maio&lt;/em&gt;, e compararmos
+novamente com &lt;em&gt;Junho&lt;/em&gt;, veremos que o meio do ano representou sim um outlier.
+De toda forma, temos aí mais um caso de assimetria interessante a ser estudada
+e explorada.&lt;/p&gt;
+&lt;h2&gt;Correlações entre grupos de classes de ativos&lt;/h2&gt;
+&lt;p&gt;Para fechar o post, vamos colocar as diversas classes de ativos em grupos
+maiores e ver como se correlacionam:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_08_correlations_among_classes.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 3 - Correlações entre classes de ativos&lt;/p&gt;
+
+&lt;p&gt;Este último quadro de correlações ilustra de forma interessante um resumo do
+que vimos no quadro e nos gráficos anteriores: o rali de alta dos prêmios dos
+títulos, ações, criptos e REITS fez as correlações entre estas classes de
+ativos aumentarem significativamente, com Commodities andando na contramão.
+A mudança na correlação entre REITS e Títulos de Junho para Julho foi 
+surpreendente, saindo de 0.0077 em Junho para 0.46 em Julho (em maio ela
+estava em 0.17). Uma das grandes curiosidades para o mês de agosto, assim,
+é verificar como vai ficar esta correlação. Outro grande destaque aqui, como
+eu citei, é a correlação das Commodities com as demais classes de ativos, que
+caiu drasticamente de Junho para Junho. Por exemplo, em Junho a correlação entre
+elas e Ações estava em 0.33. Em Julho, -0.19. A correlação com os próprios REITs
+também foi extravangante: saiu de 0.33 para -0.15. Certamente esse movimento
+foi puxado pelo Petróleo, haja vista o quadro de correlações do XOP.&lt;/p&gt;
+&lt;h2&gt;Finalizando o post&lt;/h2&gt;
+&lt;p&gt;E é isso aí! Podemos dizer que os achados que encontramos na Análise Especial
+realmente se concretizaram em Julho de 2022. Não só tivemos um verdadeiro
+rali de baixa no Petróleo como uma verdadeira guinada para cima dos REITs,
+levando sua correlação com as outras classes de ativos para as alturas, e a
+das Commodities no extremo oposto. Com isso, pudemos identificar mais um
+conjunto de assimetrias que podem ser melhor investigadas e utilizadas em
+estratégias de investimento ou mesmo de trading de médio/longo prazo. Pela
+análise especial que fizemos, Agosto promete continuação desse movimento
+de alta pelo menos nos títulos, ações e criptos. Seguiremos monitorando.&lt;/p&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
 muito provavelmente em torno da segunda quinzena de agosto. Por causa disso,
 deixo para vocês uma "análise de sazonalidade" das classes de ativos a partir
 de 2000.&lt;/p&gt;
-&lt;p&gt;No &lt;a href="/analises_2022_07.html"&gt;post anterior&lt;/a&gt;, eu havia comentado que
+&lt;p&gt;No &lt;a href="https://contemplandoomercado.github.io/analises_2022_07.html"&gt;post anterior&lt;/a&gt;, eu havia comentado que
 &lt;em&gt;em um estudo que fiz ano passado, eu verifiquei que o mês de Julho, para&lt;/em&gt;
 &lt;em&gt;praticamente &lt;u&gt;todo tipo de ativo em renda variável&lt;/u&gt;, é caracterizado,&lt;/em&gt;
 &lt;em&gt;na média, por ser de alta.&lt;/em&gt; Pois bem, inspirado nisso, eu resolvi refazer
@@ -22,7 +137,7 @@ com os "retornos brutos" (sem descontar nada).&lt;/p&gt;
 &lt;h2&gt;Retornos médios&lt;/h2&gt;
 &lt;p&gt;Vamo lá. Vamo dar uma olhada em quanto cada classe deu de retorno &lt;strong&gt;em média&lt;/strong&gt;
 em cada mês.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Retornos médios das classes de ativos" src="/images/Special_Analysis_07_2022/mean_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Retornos médios das classes de ativos" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/mean_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 1 - Média dos retornos das classes de ativos em cada mês&lt;/p&gt;
 
 &lt;p&gt;Logo de cara já temos aquela surpresa: Títulos Públicos &lt;em&gt;de curto prazo&lt;/em&gt; (SHY)
@@ -39,7 +154,7 @@ e 3 anos de vencimento, então em teoria a volatilidade deles deve ser baixa.&lt
 &lt;p&gt;Voltando para a questão central do estudo, mais especificamente em SHY: se
 tivéssemos feito "trades mensais" em SHY, como teria sido a curva de retorno
 para cada mês? A figura abaixo nos traz a resposta:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Curvas de retornos do SHY" src="/images/Special_Analysis_07_2022/shy_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Curvas de retornos do SHY" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/shy_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 2 - Curva de retornos mensais dos Títulos Públicos de curto prazo dos EUA&lt;/p&gt;
 
 &lt;p&gt;Como podemos perceber, a figura mostra claramente que os Títulos Públicos de
@@ -66,7 +181,7 @@ rendimento médio de "bons investidores" no longo prazo fica em torno de
 20% ao ano. &lt;/p&gt;
 &lt;p&gt;Vamos agora facilitar um pouco nossa vida de visualizações com a figura
 a seguir:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Médias dos retornos em meses específicos" src="/images/Special_Analysis_07_2022/specific_mean_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Médias dos retornos em meses específicos" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/specific_mean_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 3 - Médias dos retornos das classes dos ativos em diferentes meses&lt;/p&gt;
 
 &lt;p&gt;As escolhas dos meses acima (com exceção de Junho e Julho) não foi por acaso:
@@ -93,7 +208,7 @@ evidencia uma coisa curiosa: no &lt;strong&gt;segundo semestre&lt;/strong&gt; is
 realmente o BTC aparenta ser um ativo de risco da NASDAQ e uma aposta alavancada
 no S&amp;amp;P), porém no &lt;strong&gt;primeiro semestre&lt;/strong&gt; a movimentação é o &lt;em&gt;exato oposto&lt;/em&gt;: enquanto
 um sobe, o outro cai. Analisando a matriz de correlação histórica que postamos
-&lt;a href="/analises_2022_07.html"&gt;no início deste mês&lt;/a&gt;, veremos que a correlação
+&lt;a href="https://contemplandoomercado.github.io/analises_2022_07.html"&gt;no início deste mês&lt;/a&gt;, veremos que a correlação
 Ações-Criptos é de 0.45, sendo (0.17 no período Abr-Jun/2022). Pegando
 emprestado o modo de falar do &lt;a href="https://br.linkedin.com/in/economistarichardrytenband"&gt;Rytenband&lt;/a&gt;,
 dá pra explorar algumas boas assimetrias entre Ações e Criptos ao longo do ano
@@ -102,7 +217,7 @@ dá pra explorar algumas boas assimetrias entre Ações e Criptos ao longo do an
 &lt;p&gt;Para fechar as análises, vamos dar uma olhada em como sairiam as curvas de
 retornos das classes de ativos se comprássemos no início de Julho e
 vendêsssemos no final dele.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Curvas dos retornos em Julho" src="/images/Special_Analysis_07_2022/assets_returns_in_july.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Curvas dos retornos em Julho" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/assets_returns_in_july.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 4 - Curva de retornos das classes de ativos em Julho&lt;/p&gt;
 
 &lt;p&gt;Corroborando mais uma vez com o que já vimos antes, Julho de fato demonstra
@@ -134,15 +249,15 @@ mês, e comparem com outros meses. Tem algo de interessante aí.&lt;/p&gt;
 ajudar vocês de alguma forma caso pensem em algum momento em montar uma
 carteira de longo prazo, ou até mesmo fazer aquela especulação marota
 (só lembrando para não tomarem nada deste post como recomendação de compra
-e venda). Parafraseando o que falo na &lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;,
+e venda). Parafraseando o que falo na &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;,
 caso vocês notem algum erro, ou tenham alguma dúvida sobre alguma coisa 
 neste post e nos outros, não deixem de entrar em contato comigo pelo e-mail
 contemplandoomercado@gmail.com. A propósito, caso queiram ver por aqui
 algum novo estudo, é só falarem também.&lt;/p&gt;
-&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises Especiais"></category><category term="analises_especiais"></category></entry><entry><title>Análises - Junho de 2022</title><link href="/analises_2022_07.html" rel="alternate"></link><published>2022-07-05T14:40:00-03:00</published><updated>2022-07-05T14:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-07-05:/analises_2022_07.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises Especiais"></category><category term="analises_especiais"></category></entry><entry><title>Análises - Junho de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_07.html" rel="alternate"></link><published>2022-07-05T14:40:00-03:00</published><updated>2022-07-05T14:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-07-05:/analises_2022_07.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="https://contemplandoomercado.github.io/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
 que fizemos aqui para entender como interpretar os gráficos de prêmios de
-risco. Confira também a &lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
+risco. Confira também a &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
 para entender como geramos as figuras das análises.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Bem galera, continuando com a nossa programação normal, vamos às análises do
@@ -151,10 +266,10 @@ mês de Junho de 2022, marcado pelo São João no Nordeste Brasileiro e pelo
 mês será feita "de trás para frente", começando com criptos, e terminando
 com títulos públicos dos Estados Unidos.&lt;/p&gt;
 &lt;h2&gt;Movimento dos prêmios de risco&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="/images/2022_07_risk_premium_movements.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_07_risk_premium_movements.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 1 - Movimento dos prêmios de risco&lt;/p&gt;
 
-&lt;p&gt;Conforme &lt;a href="/bitcoin_20220618.html"&gt;eu comentei em Junho de 2022&lt;/a&gt;, o
+&lt;p&gt;Conforme &lt;a href="https://contemplandoomercado.github.io/bitcoin_20220618.html"&gt;eu comentei em Junho de 2022&lt;/a&gt;, o
 Bitcoin caiu tanto que perdeu até mesmo um topo histórico anterior. E vejam
 só! O prêmio de risco da criptomoeda &lt;strong&gt;bateu no quantil de 1%&lt;/strong&gt;, e logo após
 isso começou a subir! Se olharmos para o histórico do prêmio, veremos que
@@ -214,7 +329,7 @@ que esse movimento se inverta rapidamente. Seguiremos monitorando.&lt;/p&gt;
 &lt;p&gt;Agora que discutimos bastante sobre os movimentos dos prêmios,
 vamos dar uma olhada nas correlações entre eles.&lt;/p&gt;
 &lt;h2&gt;Quadro de correlações&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Quadro de correlações" src="/images/2022_07_correlations_board.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_07_correlations_board.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 2 - Quadro de correlações&lt;/p&gt;
 
 &lt;p&gt;Vamo lá: se formos comparar as correlações históricas atuais com as que eu
@@ -249,7 +364,7 @@ e &lt;a href="https://twitter.com/RRytenband/status/1542162905579327488"&gt;aqui
 &lt;h2&gt;Correlações entre grupos de classes de ativos&lt;/h2&gt;
 &lt;p&gt;Para fechar o post, vamos colocar as diversas classes de ativos em grupos
 maiores e ver como se correlacionam:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="/images/2022_07_correlations_among_classes.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_07_correlations_among_classes.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 3 - Correlações entre classes de ativos&lt;/p&gt;
 
 &lt;p&gt;Se comparando as classes individuais a gente percebe que houveram diferenças mínimas
@@ -281,7 +396,7 @@ pouco, assim como os movimentos que vimos este mês. Em um estudo que fiz ano
 passado, eu verifiquei que o mês de Julho, para praticamente &lt;em&gt;todo tipo de ativo&lt;/em&gt;
 em renda variável, é caracterizado, na média, por ser de alta. Vamos ver como
 vai ser este ano.&lt;/p&gt;
-&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</title><link href="/bitcoin_20220618.html" rel="alternate"></link><published>2022-06-18T10:00:00-03:00</published><updated>2022-06-18T10:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-06-18:/bitcoin_20220618.html</id><summary type="html">&lt;p&gt;Análise do Bitcoin em 18 de junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</title><link href="https://contemplandoomercado.github.io/bitcoin_20220618.html" rel="alternate"></link><published>2022-06-18T10:00:00-03:00</published><updated>2022-06-18T10:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-06-18:/bitcoin_20220618.html</id><summary type="html">&lt;p&gt;Análise do Bitcoin em 18 de junho de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;&lt;span style="color:red"&gt;AVISO IMPORTANTE:&lt;/span&gt; todas as análises realizadas
 aqui &lt;strong&gt;NÃO&lt;/strong&gt; são (e nem implicam em) recomendações de compra ou venda de
 ativos financeiros. O objetivo dos posts deste blog é unicamente compartilhar
@@ -293,7 +408,7 @@ do que está acontecendo com o Bitcoin. &lt;/p&gt;
 &lt;p&gt;Galera, post relâmpago aqui, dado o momento histórico que o Bitcoin está
 passando (Felipe, obrigado mais uma vez pelo avido). Vejamos o que está
 acontecendo pela figura abaixo.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Bitcoin em 18 de Junho de 2022" src="/images/BTCUSD_2022-06-18_09-11-51.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bitcoin em 18 de Junho de 2022" src="https://contemplandoomercado.github.io/images/BTCUSD_2022-06-18_09-11-51.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 1 - Bitcoin em 18 de junho de 2022&lt;/p&gt;
 
 &lt;p&gt;Antes de tudo, algumas explicações:&lt;/p&gt;
@@ -329,14 +444,14 @@ Em linhas gerais, temos mais sinais (em termos de quantidade) que os preços
 subirão do que cairão. No entanto, os sinais de que continuaram caindo são
 fortes o suficiente para compensar a quantidade menor. Seguiremos acompanhando
 o que vai acontecer pela frente.&lt;/p&gt;
-&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises de Gráficos"></category><category term="bitcoin"></category><category term="analises"></category></entry><entry><title>Análises - Maio de 2022</title><link href="/analises_2022_06.html" rel="alternate"></link><published>2022-06-05T00:00:00-03:00</published><updated>2022-06-05T00:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-06-05:/analises_2022_06.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em maio de 2022&lt;/p&gt;</summary><content type="html">&lt;p&gt;Agora sim pessoal, vamos nessa. Antes de tudo, vamos tentar entender estas
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises de Gráficos"></category><category term="bitcoin"></category><category term="analises"></category></entry><entry><title>Análises - Maio de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_06.html" rel="alternate"></link><published>2022-06-05T00:00:00-03:00</published><updated>2022-06-05T00:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-06-05:/analises_2022_06.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em maio de 2022&lt;/p&gt;</summary><content type="html">&lt;p&gt;Agora sim pessoal, vamos nessa. Antes de tudo, vamos tentar entender estas
 imagens, começando da primeira. Percebam que temos dois gráficos para cada
 ETF/Classe de ativo: um bem mais "riscado" (à esquerda) e outro com uma
 linha fina (à direita). O gráfico da esquerda mostra o movimento histórico
 do prêmio de risco desde 01 de janeiro de 2000. O da direita mostra o
 movimento feito nos últimos 100 dias (3 meses), sempre considerando retornos
 mensais descontados da SELIC e da inflação, conforme eu explico na
-&lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;.&lt;/p&gt;
+&lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Percebam que eu coloquei uma linha vermelha e duas linhas marrons em cada
 gráfico. Vejam também que elas estão nas mesmas posições em cada par de
 gráficos. Isso tem um motivo: a linha vermelha sempre estará no zero, para nos
@@ -354,7 +469,7 @@ visualizarem elas em uma nova página/aba, elas vão ficar numa resolução maio
 e com boa qualidade.&lt;/p&gt;
 &lt;p&gt;Agora sim, vamos para as figuras e análises.&lt;/p&gt;
 &lt;h2&gt;Movimento dos prêmios de risco&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="/images/2022_06_risk_premium_movements.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_06_risk_premium_movements.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 1 - Movimento dos prêmios de risco&lt;/p&gt;
 
 &lt;p&gt;Títulos americanos, no geral, tiveram um rally de alta interessante
@@ -384,13 +499,13 @@ e ouro se encaminhando também. Considerando que os mercados se movem em
 ciclos, isto pode nos estar sinalizando que o início de uma temporada de
 alta de commodities se aproxima (&lt;span style="color:red"&gt;ATENÇÃO:&lt;/span&gt;
 não tomem como recomendação de compra nem comprem commodities por isso.
-Conforme já avisei nas &lt;a href="/boas-vindas.html"&gt;boas vindas&lt;/a&gt;, nada aqui
+Conforme já avisei nas &lt;a href="https://contemplandoomercado.github.io/boas-vindas.html"&gt;boas vindas&lt;/a&gt;, nada aqui
 é recomendação de compra ou venda, apenas análises e interpretações pessoais,
 com o objetivo de fomentar a discussão sobre mercado financeiro).&lt;/p&gt;
 &lt;p&gt;Agora que discutimos bastante sobre os movimentos dos prêmios, vamos dar uma
 olhada nas correlações entre eles.&lt;/p&gt;
 &lt;h2&gt;Quadro de correlações&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Quadro de correlações" src="/images/2022_06_correlations_board.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_06_correlations_board.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 2 - Quadro de correlações&lt;/p&gt;
 
 &lt;p&gt;Algumas coisas curiosas: percebam como os títulos públicos são extremamente
@@ -425,7 +540,7 @@ petróliferas. Quanto ao Urânio, minha hipótese está relacionada à
 &lt;h2&gt;Correlações entre grupos de classes de ativos&lt;/h2&gt;
 &lt;p&gt;Para fechar o post, vamos colocar as diversas classes de ativos em grupos
 maiores e ver como se correlacionam:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="/images/2022_06_correlations_among_classes.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_06_correlations_among_classes.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 3 - Correlações entre classes de ativos&lt;/p&gt;
 
 &lt;p&gt;Temos agora uma verdadeira visualização de cenário macro. E esta visualização
@@ -446,7 +561,7 @@ Criptos são uma das classes de mais risco que existe hoje, e os Títulos o
 extremo oposto, uma carteira combinando elas poderia dar uma boa
 &lt;a href="https://www.investopedia.com/articles/investing/013114/barbell-investment-strategy.asp"&gt;estratégia barbell&lt;/a&gt; e ainda por cima bem diversificada (&lt;span style="color:red"&gt;ATENÇÃO:&lt;/span&gt; não tomem isso como recomendação de compra
 nem comprem títulos e criptos por isso, vide os avisos que venho
-dado neste post e nas &lt;a href="/boas-vindas.html"&gt;boas vindas&lt;/a&gt;).&lt;/p&gt;
+dado neste post e nas &lt;a href="https://contemplandoomercado.github.io/boas-vindas.html"&gt;boas vindas&lt;/a&gt;).&lt;/p&gt;
 &lt;h2&gt;Finalizando o post&lt;/h2&gt;
 &lt;p&gt;Bem galera, este foi o nosso primeiro post de análises. Fico feliz de poder
 estar compartilhando tudo isso com vocês. Estes são assuntos que tem me
@@ -460,11 +575,11 @@ variável e perderem toda sua suada grana. Não só eu não quero ser mais um
 desses, pelo contrário, quero poder alertar o quanto esse "mundo" é
 traiçoeiro.&lt;/p&gt;
 &lt;p&gt;Por causa disso, conto com o feedback de vocês. Eu deixei na 
-&lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt; um contato por onde
+&lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt; um contato por onde
 vocês podem me mandar mensagens, feedbacks etc. Em algum momento devo estar
 colocando aqui no blog um espaço para comentários, como normalmente existe
 em blogs no geral.&lt;/p&gt;
-&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Boas-Vindas</title><link href="/boas-vindas.html" rel="alternate"></link><published>2022-05-22T15:00:00-03:00</published><updated>2022-05-22T15:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-05-22:/boas-vindas.html</id><summary type="html">&lt;p&gt;Post de introdução do Blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, resolvi criar este blog para organizar as análises que faço do mercado
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Boas-Vindas</title><link href="https://contemplandoomercado.github.io/boas-vindas.html" rel="alternate"></link><published>2022-05-22T15:00:00-03:00</published><updated>2022-05-22T15:00:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-05-22:/boas-vindas.html</id><summary type="html">&lt;p&gt;Post de introdução do Blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, resolvi criar este blog para organizar as análises que faço do mercado
 financeiro, e compartilhá-las com vocês de uma forma mais "elegante". Fiquem à
 vontade para compartilhar as análises com conhecidas e conhecidos que também
 se interessem pelo assunto.&lt;/p&gt;

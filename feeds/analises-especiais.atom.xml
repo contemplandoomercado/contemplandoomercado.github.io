@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros - Analises Especiais</title><link href="/" rel="alternate"></link><link href="/feeds/analises-especiais.atom.xml" rel="self"></link><id>/</id><updated>2022-07-28T11:40:00-03:00</updated><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:None,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros - Analises Especiais</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/analises-especiais.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2022-07-28T11:40:00-03:00</updated><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
 muito provavelmente em torno da segunda quinzena de agosto. Por causa disso,
 deixo para vocês uma "análise de sazonalidade" das classes de ativos a partir
 de 2000.&lt;/p&gt;
-&lt;p&gt;No &lt;a href="/analises_2022_07.html"&gt;post anterior&lt;/a&gt;, eu havia comentado que
+&lt;p&gt;No &lt;a href="https://contemplandoomercado.github.io/analises_2022_07.html"&gt;post anterior&lt;/a&gt;, eu havia comentado que
 &lt;em&gt;em um estudo que fiz ano passado, eu verifiquei que o mês de Julho, para&lt;/em&gt;
 &lt;em&gt;praticamente &lt;u&gt;todo tipo de ativo em renda variável&lt;/u&gt;, é caracterizado,&lt;/em&gt;
 &lt;em&gt;na média, por ser de alta.&lt;/em&gt; Pois bem, inspirado nisso, eu resolvi refazer
@@ -22,7 +22,7 @@ com os "retornos brutos" (sem descontar nada).&lt;/p&gt;
 &lt;h2&gt;Retornos médios&lt;/h2&gt;
 &lt;p&gt;Vamo lá. Vamo dar uma olhada em quanto cada classe deu de retorno &lt;strong&gt;em média&lt;/strong&gt;
 em cada mês.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Retornos médios das classes de ativos" src="/images/Special_Analysis_07_2022/mean_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Retornos médios das classes de ativos" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/mean_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 1 - Média dos retornos das classes de ativos em cada mês&lt;/p&gt;
 
 &lt;p&gt;Logo de cara já temos aquela surpresa: Títulos Públicos &lt;em&gt;de curto prazo&lt;/em&gt; (SHY)
@@ -39,7 +39,7 @@ e 3 anos de vencimento, então em teoria a volatilidade deles deve ser baixa.&lt
 &lt;p&gt;Voltando para a questão central do estudo, mais especificamente em SHY: se
 tivéssemos feito "trades mensais" em SHY, como teria sido a curva de retorno
 para cada mês? A figura abaixo nos traz a resposta:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Curvas de retornos do SHY" src="/images/Special_Analysis_07_2022/shy_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Curvas de retornos do SHY" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/shy_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 2 - Curva de retornos mensais dos Títulos Públicos de curto prazo dos EUA&lt;/p&gt;
 
 &lt;p&gt;Como podemos perceber, a figura mostra claramente que os Títulos Públicos de
@@ -66,7 +66,7 @@ rendimento médio de "bons investidores" no longo prazo fica em torno de
 20% ao ano. &lt;/p&gt;
 &lt;p&gt;Vamos agora facilitar um pouco nossa vida de visualizações com a figura
 a seguir:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Médias dos retornos em meses específicos" src="/images/Special_Analysis_07_2022/specific_mean_returns.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Médias dos retornos em meses específicos" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/specific_mean_returns.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 3 - Médias dos retornos das classes dos ativos em diferentes meses&lt;/p&gt;
 
 &lt;p&gt;As escolhas dos meses acima (com exceção de Junho e Julho) não foi por acaso:
@@ -93,7 +93,7 @@ evidencia uma coisa curiosa: no &lt;strong&gt;segundo semestre&lt;/strong&gt; is
 realmente o BTC aparenta ser um ativo de risco da NASDAQ e uma aposta alavancada
 no S&amp;amp;P), porém no &lt;strong&gt;primeiro semestre&lt;/strong&gt; a movimentação é o &lt;em&gt;exato oposto&lt;/em&gt;: enquanto
 um sobe, o outro cai. Analisando a matriz de correlação histórica que postamos
-&lt;a href="/analises_2022_07.html"&gt;no início deste mês&lt;/a&gt;, veremos que a correlação
+&lt;a href="https://contemplandoomercado.github.io/analises_2022_07.html"&gt;no início deste mês&lt;/a&gt;, veremos que a correlação
 Ações-Criptos é de 0.45, sendo (0.17 no período Abr-Jun/2022). Pegando
 emprestado o modo de falar do &lt;a href="https://br.linkedin.com/in/economistarichardrytenband"&gt;Rytenband&lt;/a&gt;,
 dá pra explorar algumas boas assimetrias entre Ações e Criptos ao longo do ano
@@ -102,7 +102,7 @@ dá pra explorar algumas boas assimetrias entre Ações e Criptos ao longo do an
 &lt;p&gt;Para fechar as análises, vamos dar uma olhada em como sairiam as curvas de
 retornos das classes de ativos se comprássemos no início de Julho e
 vendêsssemos no final dele.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Curvas dos retornos em Julho" src="/images/Special_Analysis_07_2022/assets_returns_in_july.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Curvas dos retornos em Julho" src="https://contemplandoomercado.github.io/images/Special_Analysis_07_2022/assets_returns_in_july.png"&gt;&lt;/p&gt;
 &lt;p style="text-align: center;"&gt;Figura 4 - Curva de retornos das classes de ativos em Julho&lt;/p&gt;
 
 &lt;p&gt;Corroborando mais uma vez com o que já vimos antes, Julho de fato demonstra
@@ -134,7 +134,7 @@ mês, e comparem com outros meses. Tem algo de interessante aí.&lt;/p&gt;
 ajudar vocês de alguma forma caso pensem em algum momento em montar uma
 carteira de longo prazo, ou até mesmo fazer aquela especulação marota
 (só lembrando para não tomarem nada deste post como recomendação de compra
-e venda). Parafraseando o que falo na &lt;a href="/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;,
+e venda). Parafraseando o que falo na &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;,
 caso vocês notem algum erro, ou tenham alguma dúvida sobre alguma coisa 
 neste post e nos outros, não deixem de entrar em contato comigo pelo e-mail
 contemplandoomercado@gmail.com. A propósito, caso queiram ver por aqui
