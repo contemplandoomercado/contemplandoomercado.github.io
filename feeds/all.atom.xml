@@ -1,5 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/all.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2022-09-05T12:30:00-03:00</updated><entry><title>Análises - Agosto de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_09.html" rel="alternate"></link><published>2022-09-05T12:30:00-03:00</published><updated>2022-09-05T12:30:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-09-05:/analises_2022_09.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em agosto de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/all.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2022-10-08T22:40:00-03:00</updated><entry><title>Análises - Setembro de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_10.html" rel="alternate"></link><published>2022-10-08T22:40:00-03:00</published><updated>2022-10-08T22:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-10-08:/analises_2022_10.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em setembro de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="https://contemplandoomercado.github.io/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
+que fizemos aqui para entender como interpretar os gráficos de prêmios de
+risco. Confira também a &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
+para entender como geramos as figuras das análises.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Bem galera, continuando com a nossa programação normal, vamos às análises do
+mês de Setembro de 2022, marcado pela campanha eleitoral no Brasil para
+Presidência, Governos Estaduais, Senado e Legislativo (Federal e Estadual).&lt;/p&gt;
+&lt;p&gt;Teremos algumas "novidades estruturais" no post deste mês, resultado de
+algumas reflexões que fiz sobre as análises durante a corrida presidencial.&lt;/p&gt;
+&lt;p&gt;Conforme vimos na nossa primeira &lt;a href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html"&gt;análise especial&lt;/a&gt;,
+Setembro é um mês que, na média, tem dado prejuízo para boa parte das classes
+de ativos, em especial o Ethereum (ETH-USD) e a prata (SLV). Vamos ver se isso
+aconteceu desta vez.&lt;/p&gt;
+&lt;h2&gt;Movimento dos prêmios de risco&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_10_risk_premium_movements.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 1 - Movimento dos prêmios de risco&lt;/p&gt;
+
+&lt;p&gt;E temos aqui a primeira novidade: resolvi deixar somente o movimento dos
+prêmios somente dos últimos 3 meses (mantendo os quantis históricos de 1% e
+99%). Fiz isso pois na prática o foco das nossas análises está sendo
+exatamente no "curto prazo". De toda forma, como já exibimos em posts
+anteriores os movimentos históricos, creio que não teremos muito prejuízo com
+essa mudança de layout.&lt;/p&gt;
+&lt;p&gt;Agora, sim, vamos de fato às análises. De forma bem geral, pudemos de fato ver
+dicotomia de movimentos entre as classes de renda fixa e de ações este mês.
+Enquanto os prêmios dos títulos públicos americanos (SHY, IEF e TLT) tiveram
+movimentações de alta em setembro (com bastante volatidade), os prêmios das
+ações e REITs fizeram forte em queda, com destaque para S&amp;amp;P500 (IVV) e ações de
+crescimento (VUG), cujos prêmios ficaram bem próximos do quantil de 1%.&lt;/p&gt;
+&lt;p&gt;Na Renda Fixa, por outro lado, os títulos de curto prazo (SHY) chegaram a
+fechar o mês na zona positiva. Apesar disso, se analisarmos o desenho
+formado a partir da metade de Julho, podemos interpretar que esta alta
+em setembro pode simbolizar um "descanso do movimento de queda" que vem
+acontecendo desde o meio do ano, e que há possibilidade dos prêmios da
+renda fixa cairem em Outubro.&lt;/p&gt;
+&lt;p&gt;Uma coisa que me chamou à atenção nos prêmios das ações e REITs foi um
+repique para a zona de 0 logo no início do mês antes do movimento de baixa
+realmente acontecer. Isto é um fenômeno que vez ou outra é observado
+em quem faz trading, porém a "linha de referência" utilizada é normalmente
+uma média móvel, por exemplo. Ainda neste contexto de trading, misturando
+um pouco com investimentos, uma hipótese que podemos fazer é que de alguma
+forma agentes institucionais (grandes bancos, fundos de investimentos etc.)
+"deram um jeito" de fazer os preços subirem um pouco para diminuirem o
+prejuízo. Uma vez que os preços ficaram numa zona mais interessante,
+terminaram de se desfazer dos ativos que tinham, e aí o preço foi lá para
+baixo. Só lembrando que isto é mera especulação minha, o motivo pode ter sido
+outro completamente diferente. Tem vários outros fatores no meio, como
+inflações globais, aumento dos juros nos EUA etc. etc.&lt;/p&gt;
+&lt;p&gt;Passando agora para o setor de commodities, Setembro foi marcado basicamente
+por continuações dos movimentos já observados em Agosto. O prêmio de risco
+da Prata (SLV) continuou o movimento lateral que vem fazendo desde Julho,
+ficando sempre 0% e -10%. Apesar disso, ele fechou o mês acima do ponto
+em que começou, encostando na faixa de 0%. Ouro (IAU) também passou por
+isso (e na prática, passou o mês caindo), fechando em alta em relação ao
+início do mês.&lt;/p&gt;
+&lt;p&gt;O prêmio do petróleo (XOP), porém, devolveu todo o lucro obtido em Agosto,
+fazendo um movimento bem direcional para baixo. E assim como vimos com os
+prêmios das ações, eu não duvidaria que isso possa ter sido (em parte) um
+movimentação dos "instituicionais" (grandes bancos, fundos de investimentos
+etc.). Por fim, o prêmio do Urânio também fez um movimento direcional de
+baixa, tal o XOP, conseguindo porém fechar o mês na zona de 0%, apesar de
+ter ficado em níveis inferiores aos do início do mês.&lt;/p&gt;
+&lt;p&gt;Fechando a seção com as criptos, tivemos o prêmio do Bitcoin lateralizado,
+fechando o mês em alta, na zona de 0%. O do Ethereum, por sua vez, começou
+Setembro lateral, fazendo depois movimentos direcionais para baixo e para
+cima, respectivamente.&lt;/p&gt;
+&lt;p&gt;Um fenômeno curioso que aconteceu com os prêmios de ações, REITs e criptos
+é que eles ou chegaram bem próximo do quantil de 1%, ou atingiram a mesma
+região que fundos anteriores bem recentes antigiram (chamamos isso de 
+"zona de suporte", no trading). Falando especificamente das criptos,
+percebam seus prêmios fecharam o mês subindo. Será que teremos movimentos
+de alta na renda variável em Outubro? Ou será que poderemos ter os quantis
+de 1% "atualizados"?&lt;/p&gt;
+&lt;p&gt;Outro fenômeno curioso aconteceu com a Prata: é a terceira vez desde Julho
+que o prêmio bate na zona de 0%. Ele caiu nas duas vezes anteriores. Será
+que a Prata continua nesta "zona de acumulação" (ou seria "distribuição"?)
+ainda em Outubro? Ou será que ela rompe para cima, fazendo um movimento
+direcional?&lt;/p&gt;
+&lt;p&gt;Seguiremos monitorando.&lt;/p&gt;
+&lt;p&gt;Agora que discutimos bastante sobre os movimentos dos prêmios, vamos dar uma
+olhada nas correlações entre eles.&lt;/p&gt;
+&lt;h2&gt;Correlações entre grupos de classes de ativos&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_10_correlations_among_classes.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 2 - Correlações entre classes de ativos&lt;/p&gt;
+
+&lt;p&gt;E vamos à nossa segunda mudança estrutural: resolvi trazer primeiro, dessa vez,
+as correlações dos grupos de classes de ativos. Dessa forma, a gente olha
+primeiro para o panomara geral, e o que pescarmos que pontos interessantes
+para vermos com mais calma, a gente se aprofunda no próximo quadro.&lt;/p&gt;
+&lt;p&gt;Dito isto, temos três pares de grupos que chamaram bastante à atenção este
+mês:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Títulos US e Commodities&lt;/strong&gt;: Tivemos uma queda de agosto para setembro, de 
+  -0.2 para -0.38. Isto certamente reflete a dicotomia do aumento dos prêmios
+  dos Títulos e a lateralização das commodities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commodities e Ações&lt;/strong&gt;: Aqui tivemos um fenômeno curioso: a correlação
+  &lt;em&gt;permaneceu igual&lt;/em&gt; (em 0.36) de Agosto para setembro, mesmo os prêmios 
+  de ações fazendo um movimento bastante direcional.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Títulos US e Criptos&lt;/strong&gt;: Tivemos um aumento significativo nas correlação
+  entre os dois grupos (ainda que ela ainda esteja na zona negativa): de 
+  -0.11 para -0.00089. Minha interpretação é que as lateralizações do
+  BTC (em parte) contribuiram para isso. É importante mencionar que a
+  cripto mais famosa da história tem orbitado o antigo topo de 2017/2018
+  nestes meses recentes (ou seja, muito comprador "defendendo o Bitcoin"
+  nesta região). Esta (também) dicotomia de criptos laterais/títulos 
+  crescendo ajuda a explicar a "correlação 0" entre os dois grupos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vamos agora olhar o quadro de correlações com esses direcionamentos.&lt;/p&gt;
+&lt;h2&gt;Quadro de correlações&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_10_correlations_board.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 3 - Quadro de correlações&lt;/p&gt;
+
+&lt;p&gt;Vimos na seção anterior que Títulos US e Commodities tiveram uma baixa
+considerável em sua correlação. O quadro acima (comparando com o de 
+Setembro) ilustra o motivo disso: a Prata! Se em Agosto a correlação
+dela com SHY, IEF e TLT (Títulos de curto, médio e longo prazo,
+respectivamente) estava entre 0.2 e 0.3, em Setembro ela caiu para a
+faixa de 0.08 a 0.20! Mais especificamente, de 0.25 para 0.08 com SHY,
+0.36 para 0.1 com IEF, e 0.43 para 0.18 com TLT! O que uma lateralização
+não faz... A propósito, a correlação do XOP (Petróleo) com os títulos
+continua lá em baixo, não mudou muito de Agosto para Setembro. Ouro
+também, embora tenha igualmente caído (mas não mais que 5 pontos 
+percentuais).&lt;/p&gt;
+&lt;p&gt;E não pense que a correlação da Prata caiu só com os Títulos, pois
+caiu com as ações também! Pois é, mesmo a correlação &lt;em&gt;entre os grupos&lt;/em&gt;
+(commodities e ações) tenha ficado na mesma, a correlação da prata
+com as classes de ações caiu consideravelmente: de 0.47 para 0.29 com
+o IVV, de 0.51 para 0.37 com o VUG, e de 0.37 para 0.18 com o ILCV.&lt;/p&gt;
+&lt;p&gt;Com a criptos, por outro lado, a correlação aumentou: de 0.09 para 0.2
+com o Bitcoin, e de 0.13 para 0.18 com o Ethereum. Como as criptos
+também lateralizaram em Setembro, é natural a correlação aumente.&lt;/p&gt;
+&lt;p&gt;Fechando agora com a dupla Títulos US vs Criptos, percebemos que de
+Agosto para setembro tivemos aumentos consideráveis entre todos os
+pares dos dois grupos de classes. O destaque vai para o IEF, cuja
+correlação com o BTC saltou de -0.12 para 0.02 (saiu de uma
+correlação negativa para uma correlação neutra). Com o Ethereum,
+o salto foi de -0.1 para 0.&lt;/p&gt;
+&lt;p&gt;Comentamos na &lt;a href="{filename}analises_2022_09"&gt;análise de agosto&lt;/a&gt; sobre
+a possibilidade de ter havido oportunidade de se fazer rebalanceamento
+de carteira (isso para quem segue alguma estratégia de investimento).
+Pelo que vimos aqui, parece que o mês de Setembro reforçou isso. Vamos
+ver o que vem por aí nos próximos meses.&lt;/p&gt;
+&lt;h2&gt;Finalizando o post&lt;/h2&gt;
+&lt;p&gt;Até onde o autor deste blog sabe e até o momento da escrita e publicação deste
+post, ainda não saiu nenhuma notícia sobre um novo crash nas bolsas globais
+nem na do Brasil. Apesar disso, o "bear market" segue. A prata segue em uma 
+lateralização que parece muito com uma acumulação (ou distribuição). E pelas
+análises do Ryteband, talvez esteja mais para uma acumulação. Não duvidaria
+que o petróleo também estivesse (embora com uma volatilidade bem maior).
+Vamos ver o que vem por aí nos próximos meses.&lt;/p&gt;
+&lt;p&gt;Para fechar a finalização do post, um "spoiler": estou preparando uma segunda
+análise especial, desta vez em cima de uma das classes de ativos que
+acompanhamos aqui no blog, bem como planejando uma terceira, seguindo a mesma
+linha da que está para sair. Não vou prometer que vai sair logo, mas já está
+quase engatilhada. Aguardem.&lt;/p&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises"></category><category term="analises"></category></entry><entry><title>Análises - Agosto de 2022</title><link href="https://contemplandoomercado.github.io/analises_2022_09.html" rel="alternate"></link><published>2022-09-05T12:30:00-03:00</published><updated>2022-09-05T12:30:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-09-05:/analises_2022_09.html</id><summary type="html">&lt;p&gt;Análise dos movimentos do mercado em agosto de 2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;Primeira vez no blog? Dá uma olhada na &lt;a href="https://contemplandoomercado.github.io/analises_2022_06.html"&gt;primeira análise&lt;/a&gt;
 que fizemos aqui para entender como interpretar os gráficos de prêmios de
 risco. Confira também a &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;
