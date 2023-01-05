@@ -4,37 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Contemplando o Mercado, por Inácio Medeiros | Page 2</title>
-    <link rel="shortcut icon" type="image/png" href="https://contemplandoomercado.github.io/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://contemplandoomercado.github.io/favicon.ico">
-    <link href="https://contemplandoomercado.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Contemplando o Mercado, por Inácio Medeiros Full Atom Feed" />
-    <link rel="stylesheet" href="https://contemplandoomercado.github.io/theme/css/main.css" type="text/css" />
-    <link rel="stylesheet" href="https://contemplandoomercado.github.io/theme/css/pygments.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
     <meta name="generator" content="Pelican" />
     <meta name="description" content="" />
     <meta name="author" content="Inácio Medeiros" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-6XXG29L1BC"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "G-6XXG29L1BC");
-</script>
-<!-- <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("G-6XXG29L1BC");
-    pageTracker._trackPageview();
-    } catch(err) {}</script> -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9187945430818081"
      crossorigin="anonymous"></script>
 </head>
@@ -42,29 +18,188 @@
     <header>
         <nav>
             <ul>
-                <li><a href="https://contemplandoomercado.github.io/">Home</a></li>
-                <li><a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html">Metodologia utilizada nas análises</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pages/metodologia_de_analise.html">Metodologia utilizada nas análises</a></li>
             </ul>
         </nav>
         <div class="header_box">
-            <h1><a href="https://contemplandoomercado.github.io/">Contemplando o Mercado, por Inácio Medeiros</a></h1>
+            <h1><a href="/">Contemplando o Mercado, por Inácio Medeiros</a></h1>
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">jul 05, 2022</h4>
+        <div id="content">            <h4 class="date">jul 28, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://contemplandoomercado.github.io/analises_2022_07.html" rel="bookmark" title="Permanent Link to &quot;Análises - Junho de 2022&quot;">Análises - Junho de 2022</a>
+                    <a href="/analise_especial_2022_07_sazonalidade.html" rel="bookmark" title="Permanent Link to &quot;Análise Especial - Sazonalidade das classes de ativos&quot;">Análise Especial - Sazonalidade das classes de ativos</a>
+                </h2>
+
+                
+                
+
+                <p>Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
+muito provavelmente em torno da segunda quinzena de agosto. Por causa disso,
+deixo para vocês uma "análise de sazonalidade" das classes de ativos a partir
+de 2000.</p>
+<p>No <a href="/analises_2022_07.html">post anterior</a>, eu havia comentado que
+<em>em um estudo que fiz ano passado, eu verifiquei que o mês de Julho, para</em>
+<em>praticamente <u>todo tipo de ativo em renda variável</u>, é caracterizado,</em>
+<em>na média, por ser de alta.</em> Pois bem, inspirado nisso, eu resolvi refazer
+esse estudo e trazer para o blog. Uma coisa legal dele é que ele está
+abrangendo Julho de 2022 também, então já vai dar para termos uma noção
+do que está rolando neste mês.</p>
+<p>Basicamente vamos trabalhar na seguinte pergunta: "se desde 2000 (ou um pouco
+depois, a depender do início da série histórica que estamos usando) a gente 
+todo ano tivesse comprado um ativo sempre no início de um mês específico e
+depois tivesse vendido no final o 'mês específico', qual teria sido o retorno?"</p>
+<p>Nesta análise, nós vamos trabalhar com quase todas classes que já estamos
+acompanhando por aqui. Dessa vez, Urânio (URA) e REITS (VNQ) ficaram de fora,
+e ações da NASDAQ (<a href="https://etfdb.com/etf/QQQ">QQQ</a>) entraram no lugar.</p>
+<p>Outra coisa importante: desta vez não trabalharemos com prêmio de risco, e sim
+com os "retornos brutos" (sem descontar nada).</p>
+<h2>Retornos médios</h2>
+<p>Vamo lá. Vamo dar uma olhada em quanto cada classe deu de retorno <strong>em média</strong>
+em cada mês.</p>
+<p><img alt="Retornos médios das classes de ativos" src="/images/Special_Analysis_07_2022/mean_returns.png"></p>
+<p style="text-align: center;">Figura 1 - Média dos retornos das classes de ativos em cada mês</p>
+
+<p>Logo de cara já temos aquela surpresa: Títulos Públicos <em>de curto prazo</em> (SHY)
+tendo média <em>positiva</em> <strong>em todos os meses</strong> (?!) Pode isso, Arnaldo? E é
+nessas horas que aparece a "pegadinha": esses números são <em>médias</em>, ou seja, 
+certamente em um ano ou outro rolaram retornos negativos. De toda forma, é 
+importante lembrar que estamos falando de um dos investimentos mais seguros
+do mundo, que é a renda fixa do Estados Unidos, logo é de se esperar bons
+resultados. E percebam que os retornos são baixinhos: o maior deles foi de 
+0.30%, em agosto. É aquela velha máxima do risco-retorno: menos risco, menos
+retorno (e vice-versa). Outro ponto importante: esses títulos possuem entre 1
+e 3 anos de vencimento, então em teoria a volatilidade deles deve ser baixa.</p>
+<h3>Analisando Títulos Públicos dos EUA de curto prazo</h3>
+<p>Voltando para a questão central do estudo, mais especificamente em SHY: se
+tivéssemos feito "trades mensais" em SHY, como teria sido a curva de retorno
+para cada mês? A figura abaixo nos traz a resposta:</p>
+<p><img alt="Curvas de retornos do SHY" src="/images/Special_Analysis_07_2022/shy_returns.png"></p>
+<p style="text-align: center;">Figura 2 - Curva de retornos mensais dos Títulos Públicos de curto prazo dos EUA</p>
+
+<p>Como podemos perceber, a figura mostra claramente que os Títulos Públicos de
+curto prazo passaram de fato por períodos de queda, apesar de registrarem
+média positiva todos os meses. O primeiro destaque nisso vai para o mês de
+Abril (mês 4), que literalmente "ficou no vermelho" entre 2002 e 2004, e entre 2008
+e 2010 (curiosamente, a época do <a href="https://www.investopedia.com/terms/s/subprime-meltdown.asp">subprime</a>.
+É... nem mesmo a renda fixa se salvou nessa época). Percebam também que os
+retornos de alguns meses tem <em>caído</em> nos últimos anos, com destaque para
+Janeiro (mês 1), Março (mês 3), Junho (mês 6), e o próprio Abril. Por outro
+lado, percebam que a curva de retornos considerando o período histórico com o
+qual estamos trabalhando é positiva, "corroborando" assim as médias positivas,
+com destaque para o mês de Maio (mês 5), que fecha a curva em 2022 subindo.</p>
+<h2>Meses de Lucros e Crises</h2>
+<p>Voltando nossos olhares para a Figura 1, vamos agora nos concentrar nas barras
+correspondentes ao mês de Julho (mês 7). Se a gente parar verificar,
+perceberemos que, com exceção de petróleo (XOP), todas as classes possuem
+retornos positivos no famoso "mês das férias", com destaque para as criptos
+(BTC-USD e ETH-USD), com médias próximas dos 20%. Percebam também outra coisa:
+as médias de Julho (bem como de outros meses) concentram-se entre 1% e 3%.
+Multiplicando isso por 12 (para termos uma noção de retorno anual), isso fica
+entre 10% e 30%. Isso condiz com algo que é bastante comentado de que o
+rendimento médio de "bons investidores" no longo prazo fica em torno de
+20% ao ano. </p>
+<p>Vamos agora facilitar um pouco nossa vida de visualizações com a figura
+a seguir:</p>
+<p><img alt="Médias dos retornos em meses específicos" src="/images/Special_Analysis_07_2022/specific_mean_returns.png"></p>
+<p style="text-align: center;">Figura 3 - Médias dos retornos das classes dos ativos em diferentes meses</p>
+
+<p>As escolhas dos meses acima (com exceção de Junho e Julho) não foi por acaso:
+alguns dos crashs mais famosos da história aconteceram neles: Crise de 1929,
+Black-Monday de 1987,  Bolha das Ponto-Com de 2000, Crise do Subprime em 2008,
+Crash das Criptos de 2018, Flash-Crash da COVID-19... todas ocorreram em algum
+destes meses, a maioria entre Setembro e Outubro. E a figura acima corrobora
+isso: percebam que a média o S&amp;P 500 (IVV) está caindo em Fevereiro, Junho e 
+Setembro, voltando sempre a se recuperar no mês seguinte. Um ponto curioso:
+a renda fixa dos EUA (SHY, IEF e TLT), com exceção do mês de Outubro, fica
+<em>positiva</em> nestes meses, daí muitas carteiras de investimento colocarem parte
+de suas posições nelas, para dar um pouco de equilíbrio e diminuir um pouco
+o risco.</p>
+<p>Outra ponto: "como sempre", em todos estes meses as criptos apresentam
+comportamentos bem exagerados (para cima ou para baixo). Agora um fato curioso:
+<a href="https://en.wikipedia.org/wiki/Michael_Burry">Michael Burry</a>
+<a href="https://twitter.com/BurryArchive/status/1540438798399508480">tuitou em Junho de 2022</a>
+uma imagem da Bloomberg mostrando o quão parecido era o movimento do Bitcoin
+com o da NASDAQ, e ainda provocou: <em>Temos certeza de que Bitcoin não é só</em>
+<em>mais um ativo de risco da NASDAQ?</em> Além disso, eu mesmo já vi comentários
+de Bitcoin seria nada mais do que "uma aposta alavancada no mercado de ações",
+pelos mesmos motivos de movimentos equivalentes. Pois bem, a figura acima nos
+evidencia uma coisa curiosa: no <strong>segundo semestre</strong> isto de fato acontece (e
+realmente o BTC aparenta ser um ativo de risco da NASDAQ e uma aposta alavancada
+no S&amp;P), porém no <strong>primeiro semestre</strong> a movimentação é o <em>exato oposto</em>: enquanto
+um sobe, o outro cai. Analisando a matriz de correlação histórica que postamos
+<a href="/analises_2022_07.html">no início deste mês</a>, veremos que a correlação
+Ações-Criptos é de 0.45, sendo (0.17 no período Abr-Jun/2022). Pegando
+emprestado o modo de falar do <a href="https://br.linkedin.com/in/economistarichardrytenband">Rytenband</a>,
+dá pra explorar algumas boas assimetrias entre Ações e Criptos ao longo do ano
+(principalmente no primeiro semestre).</p>
+<h2>"Trading mensal" em Julho</h2>
+<p>Para fechar as análises, vamos dar uma olhada em como sairiam as curvas de
+retornos das classes de ativos se comprássemos no início de Julho e
+vendêsssemos no final dele.</p>
+<p><img alt="Curvas dos retornos em Julho" src="/images/Special_Analysis_07_2022/assets_returns_in_july.png"></p>
+<p style="text-align: center;">Figura 4 - Curva de retornos das classes de ativos em Julho</p>
+
+<p>Corroborando mais uma vez com o que já vimos antes, Julho de fato demonstra
+ser um mês em que classes de ativos sobem. No entanto, é importante perceber
+que isso só começa a ocorrer de fato "para a grande massa" a partir de 2010:
+notem que antes disso as classes andaram de lado e tiveram até mesmo retornos
+negativos. Outro fator interessante: notem que a classe que mais rendeu não
+foi nem o S&amp;P 500 (IVV), nem o NASDAQ (QQQ), e nem mesmo <em>Growth Stocks</em>
+(VUG)! Quem rendeu mais foram as <em>Value Stocks</em> (ILCV), com um pouco menos de
+60%. Isso é interessante,  pois evidencia aquela máxima de que "os fundamentos
+são o que importa no fim das contas". Muita gente forte do mercado, como o
+próprio Rytenband, defende bastante essa ideia.</p>
+<p>E mais uma vez as Criptos apresentam retornos absurdamente altos, tanto
+que tive que montar um gráfico separado para melhorar a visualização.
+Percebam que entre 2018 e 2019 o retorno das criptos caiu, mesmo se
+tratando do mês de Julho (para a gente ver como o crash foi forte). Em
+compensação, bastou passar um único ano para "as máximas se renovarem".</p>
+<h2>Finalizando o post</h2>
+<p>Bem galera, o post de hoje mostrou que de fato Julho é um mês bastante
+lucrativo para a grande maioria das classes de ativos, e que realmente os
+fundamentos levam a melho no jogo do longo prazo. Vimos também que os Títulos
+Públicos de Curto Prazo são uma classe bastante interessante a se considerar
+e estudar quando se pretende montar uma carteira de investimentos de longo
+prazo, e que Criptos, para a direção que for, são verdadeiros "foguetes".
+Um ponto que eu acabei não analisando neste post (e que deixo como dever
+de casa) é o mês de abril. Reparem no retorno médio do Petróleo (XOP) neste
+mês, e comparem com outros meses. Tem algo de interessante aí.</p>
+<p>Particularmente achei bem legal fazer esse estudo. Espero que ele possa
+ajudar vocês de alguma forma caso pensem em algum momento em montar uma
+carteira de longo prazo, ou até mesmo fazer aquela especulação marota
+(só lembrando para não tomarem nada deste post como recomendação de compra
+e venda). Parafraseando o que falo na <a href="/pages/metodologia_de_analise.html">página de metodologia</a>,
+caso vocês notem algum erro, ou tenham alguma dúvida sobre alguma coisa 
+neste post e nos outros, não deixem de entrar em contato comigo pelo e-mail
+contemplandoomercado@gmail.com. A propósito, caso queiram ver por aqui
+algum novo estudo, é só falarem também.</p>
+<p>Até a próxima postagem!</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/analise_especial_2022_07_sazonalidade.html">posted at 11:40</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/analises-especiais.html" rel="tag">Analises Especiais</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="/tag/analises_especiais.html" class="tags">analises_especiais</a>
+                </div>
+            </article>            <h4 class="date">jul 05, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/analises_2022_07.html" rel="bookmark" title="Permanent Link to &quot;Análises - Junho de 2022&quot;">Análises - Junho de 2022</a>
                 </h2>
 
                 
                 
 
                 <hr>
-<p>Primeira vez no blog? Dá uma olhada na <a href="https://contemplandoomercado.github.io/analises_2022_06.html">primeira análise</a>
+<p>Primeira vez no blog? Dá uma olhada na <a href="/analises_2022_06.html">primeira análise</a>
 que fizemos aqui para entender como interpretar os gráficos de prêmios de
-risco. Confira também a <a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html">página de metodologia</a>
+risco. Confira também a <a href="/pages/metodologia_de_analise.html">página de metodologia</a>
 para entender como geramos as figuras das análises.</p>
 <hr>
 <p>Bem galera, continuando com a nossa programação normal, vamos às análises do
@@ -73,10 +208,10 @@ mês de Junho de 2022, marcado pelo São João no Nordeste Brasileiro e pelo
 mês será feita "de trás para frente", começando com criptos, e terminando
 com títulos públicos dos Estados Unidos.</p>
 <h2>Movimento dos prêmios de risco</h2>
-<p><img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_07_risk_premium_movements.png"></p>
+<p><img alt="Movimento dos prêmios de risco" src="/images/2022_07_risk_premium_movements.png"></p>
 <p style="text-align: center;">Figura 1 - Movimento dos prêmios de risco</p>
 
-<p>Conforme <a href="https://contemplandoomercado.github.io/bitcoin_20220618.html">eu comentei em Junho de 2022</a>, o
+<p>Conforme <a href="/bitcoin_20220618.html">eu comentei em Junho de 2022</a>, o
 Bitcoin caiu tanto que perdeu até mesmo um topo histórico anterior. E vejam
 só! O prêmio de risco da criptomoeda <strong>bateu no quantil de 1%</strong>, e logo após
 isso começou a subir! Se olharmos para o histórico do prêmio, veremos que
@@ -136,7 +271,7 @@ que esse movimento se inverta rapidamente. Seguiremos monitorando.</p>
 <p>Agora que discutimos bastante sobre os movimentos dos prêmios,
 vamos dar uma olhada nas correlações entre eles.</p>
 <h2>Quadro de correlações</h2>
-<p><img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_07_correlations_board.png"></p>
+<p><img alt="Quadro de correlações" src="/images/2022_07_correlations_board.png"></p>
 <p style="text-align: center;">Figura 2 - Quadro de correlações</p>
 
 <p>Vamo lá: se formos comparar as correlações históricas atuais com as que eu
@@ -171,7 +306,7 @@ e <a href="https://twitter.com/RRytenband/status/1542162905579327488">aqui</a>.<
 <h2>Correlações entre grupos de classes de ativos</h2>
 <p>Para fechar o post, vamos colocar as diversas classes de ativos em grupos
 maiores e ver como se correlacionam:</p>
-<p><img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_07_correlations_among_classes.png"></p>
+<p><img alt="Correlações entre classes de ativos" src="/images/2022_07_correlations_among_classes.png"></p>
 <p style="text-align: center;">Figura 3 - Correlações entre classes de ativos</p>
 
 <p>Se comparando as classes individuais a gente percebe que houveram diferenças mínimas
@@ -207,16 +342,16 @@ vai ser este ano.</p>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="https://contemplandoomercado.github.io/analises_2022_07.html">posted at 14:40</a>
-                    &nbsp;&middot;&nbsp;<a href="https://contemplandoomercado.github.io/category/analises.html" rel="tag">Analises</a>
+                    <a href="/analises_2022_07.html">posted at 14:40</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/analises.html" rel="tag">Analises</a>
                     &nbsp;&middot;
-                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/analises.html" class="tags">analises</a>
+                    &nbsp;<a href="/tag/analises.html" class="tags">analises</a>
                 </div>
             </article>            <h4 class="date">jun 18, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://contemplandoomercado.github.io/bitcoin_20220618.html" rel="bookmark" title="Permanent Link to &quot;Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022&quot;">Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</a>
+                    <a href="/bitcoin_20220618.html" rel="bookmark" title="Permanent Link to &quot;Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022&quot;">Análise do Bitcoin (BTC-USD) em 18 de Junho de 2022</a>
                 </h2>
 
                 
@@ -234,7 +369,7 @@ do que está acontecendo com o Bitcoin. </p>
 <p>Galera, post relâmpago aqui, dado o momento histórico que o Bitcoin está
 passando (Felipe, obrigado mais uma vez pelo avido). Vejamos o que está
 acontecendo pela figura abaixo.</p>
-<p><img alt="Bitcoin em 18 de Junho de 2022" src="https://contemplandoomercado.github.io/images/BTCUSD_2022-06-18_09-11-51.png"></p>
+<p><img alt="Bitcoin em 18 de Junho de 2022" src="/images/BTCUSD_2022-06-18_09-11-51.png"></p>
 <p style="text-align: center;">Figura 1 - Bitcoin em 18 de junho de 2022</p>
 
 <p>Antes de tudo, algumas explicações:</p>
@@ -274,17 +409,17 @@ o que vai acontecer pela frente.</p>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="https://contemplandoomercado.github.io/bitcoin_20220618.html">posted at 10:00</a>
-                    &nbsp;&middot;&nbsp;<a href="https://contemplandoomercado.github.io/category/analises-de-graficos.html" rel="tag">Analises de Gráficos</a>
+                    <a href="/bitcoin_20220618.html">posted at 10:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/analises-de-graficos.html" rel="tag">Analises de Gráficos</a>
                     &nbsp;&middot;
-                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/bitcoin.html" class="tags">bitcoin</a>
-                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/analises.html" class="tags">analises</a>
+                    &nbsp;<a href="/tag/bitcoin.html" class="tags">bitcoin</a>
+                    &nbsp;<a href="/tag/analises.html" class="tags">analises</a>
                 </div>
             </article>            <h4 class="date">jun 05, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://contemplandoomercado.github.io/analises_2022_06.html" rel="bookmark" title="Permanent Link to &quot;Análises - Maio de 2022&quot;">Análises - Maio de 2022</a>
+                    <a href="/analises_2022_06.html" rel="bookmark" title="Permanent Link to &quot;Análises - Maio de 2022&quot;">Análises - Maio de 2022</a>
                 </h2>
 
                 
@@ -297,7 +432,7 @@ linha fina (à direita). O gráfico da esquerda mostra o movimento histórico
 do prêmio de risco desde 01 de janeiro de 2000. O da direita mostra o
 movimento feito nos últimos 100 dias (3 meses), sempre considerando retornos
 mensais descontados da SELIC e da inflação, conforme eu explico na
-<a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html">página de metodologia</a>.</p>
+<a href="/pages/metodologia_de_analise.html">página de metodologia</a>.</p>
 <p>Percebam que eu coloquei uma linha vermelha e duas linhas marrons em cada
 gráfico. Vejam também que elas estão nas mesmas posições em cada par de
 gráficos. Isso tem um motivo: a linha vermelha sempre estará no zero, para nos
@@ -315,7 +450,7 @@ visualizarem elas em uma nova página/aba, elas vão ficar numa resolução maio
 e com boa qualidade.</p>
 <p>Agora sim, vamos para as figuras e análises.</p>
 <h2>Movimento dos prêmios de risco</h2>
-<p><img alt="Movimento dos prêmios de risco" src="https://contemplandoomercado.github.io/images/2022_06_risk_premium_movements.png"></p>
+<p><img alt="Movimento dos prêmios de risco" src="/images/2022_06_risk_premium_movements.png"></p>
 <p style="text-align: center;">Figura 1 - Movimento dos prêmios de risco</p>
 
 <p>Títulos americanos, no geral, tiveram um rally de alta interessante
@@ -345,13 +480,13 @@ e ouro se encaminhando também. Considerando que os mercados se movem em
 ciclos, isto pode nos estar sinalizando que o início de uma temporada de
 alta de commodities se aproxima (<span style="color:red">ATENÇÃO:</span>
 não tomem como recomendação de compra nem comprem commodities por isso.
-Conforme já avisei nas <a href="https://contemplandoomercado.github.io/boas-vindas.html">boas vindas</a>, nada aqui
+Conforme já avisei nas <a href="/boas-vindas.html">boas vindas</a>, nada aqui
 é recomendação de compra ou venda, apenas análises e interpretações pessoais,
 com o objetivo de fomentar a discussão sobre mercado financeiro).</p>
 <p>Agora que discutimos bastante sobre os movimentos dos prêmios, vamos dar uma
 olhada nas correlações entre eles.</p>
 <h2>Quadro de correlações</h2>
-<p><img alt="Quadro de correlações" src="https://contemplandoomercado.github.io/images/2022_06_correlations_board.png"></p>
+<p><img alt="Quadro de correlações" src="/images/2022_06_correlations_board.png"></p>
 <p style="text-align: center;">Figura 2 - Quadro de correlações</p>
 
 <p>Algumas coisas curiosas: percebam como os títulos públicos são extremamente
@@ -386,7 +521,7 @@ petróliferas. Quanto ao Urânio, minha hipótese está relacionada à
 <h2>Correlações entre grupos de classes de ativos</h2>
 <p>Para fechar o post, vamos colocar as diversas classes de ativos em grupos
 maiores e ver como se correlacionam:</p>
-<p><img alt="Correlações entre classes de ativos" src="https://contemplandoomercado.github.io/images/2022_06_correlations_among_classes.png"></p>
+<p><img alt="Correlações entre classes de ativos" src="/images/2022_06_correlations_among_classes.png"></p>
 <p style="text-align: center;">Figura 3 - Correlações entre classes de ativos</p>
 
 <p>Temos agora uma verdadeira visualização de cenário macro. E esta visualização
@@ -407,7 +542,7 @@ Criptos são uma das classes de mais risco que existe hoje, e os Títulos o
 extremo oposto, uma carteira combinando elas poderia dar uma boa
 <a href="https://www.investopedia.com/articles/investing/013114/barbell-investment-strategy.asp">estratégia barbell</a> e ainda por cima bem diversificada (<span style="color:red">ATENÇÃO:</span> não tomem isso como recomendação de compra
 nem comprem títulos e criptos por isso, vide os avisos que venho
-dado neste post e nas <a href="https://contemplandoomercado.github.io/boas-vindas.html">boas vindas</a>).</p>
+dado neste post e nas <a href="/boas-vindas.html">boas vindas</a>).</p>
 <h2>Finalizando o post</h2>
 <p>Bem galera, este foi o nosso primeiro post de análises. Fico feliz de poder
 estar compartilhando tudo isso com vocês. Estes são assuntos que tem me
@@ -421,7 +556,7 @@ variável e perderem toda sua suada grana. Não só eu não quero ser mais um
 desses, pelo contrário, quero poder alertar o quanto esse "mundo" é
 traiçoeiro.</p>
 <p>Por causa disso, conto com o feedback de vocês. Eu deixei na 
-<a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html">página de metodologia</a> um contato por onde
+<a href="/pages/metodologia_de_analise.html">página de metodologia</a> um contato por onde
 vocês podem me mandar mensagens, feedbacks etc. Em algum momento devo estar
 colocando aqui no blog um espaço para comentários, como normalmente existe
 em blogs no geral.</p>
@@ -429,16 +564,16 @@ em blogs no geral.</p>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="https://contemplandoomercado.github.io/analises_2022_06.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="https://contemplandoomercado.github.io/category/analises.html" rel="tag">Analises</a>
+                    <a href="/analises_2022_06.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/analises.html" rel="tag">Analises</a>
                     &nbsp;&middot;
-                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/analises.html" class="tags">analises</a>
+                    &nbsp;<a href="/tag/analises.html" class="tags">analises</a>
                 </div>
             </article>            <h4 class="date">mai 22, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://contemplandoomercado.github.io/boas-vindas.html" rel="bookmark" title="Permanent Link to &quot;Boas-Vindas&quot;">Boas-Vindas</a>
+                    <a href="/boas-vindas.html" rel="bookmark" title="Permanent Link to &quot;Boas-Vindas&quot;">Boas-Vindas</a>
                 </h2>
 
                 
@@ -455,17 +590,17 @@ análises, opiniões pessoais e discutir ideias.</p>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="https://contemplandoomercado.github.io/boas-vindas.html">posted at 15:00</a>
-                    &nbsp;&middot;&nbsp;<a href="https://contemplandoomercado.github.io/category/introducao.html" rel="tag">Introducao</a>
+                    <a href="/boas-vindas.html">posted at 15:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/introducao.html" rel="tag">Introducao</a>
                     &nbsp;&middot;
-                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/primeiro_post.html" class="tags">primeiro_post</a>
+                    &nbsp;<a href="/tag/primeiro_post.html" class="tags">primeiro_post</a>
                 </div>
             </article>
 
                 <div class="clear"></div>
                 <div class="pages">
 
-                    <a href="https://contemplandoomercado.github.io/index.html" class="prev_page">&larr;&nbsp;Previous</a>
+                    <a href="/index.html" class="prev_page">&larr;&nbsp;Previous</a>
 
 
                     <span>Page 2 of 2</span>
@@ -477,8 +612,6 @@ análises, opiniões pessoais e discutir ideias.</p>
                 <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
                 &middot;
                 Powered by <a href="http://getpelican.com">Pelican</a>
-                &middot;
-                <a href="https://contemplandoomercado.github.io/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
             </footer>
         </div>
         <div class="clear"></div>
