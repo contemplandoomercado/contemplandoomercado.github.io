@@ -1,5 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros - Analises Especiais</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/analises-especiais.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2022-07-28T11:40:00-03:00</updated><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Contemplando o Mercado, por Inácio Medeiros - Analises Especiais</title><link href="https://contemplandoomercado.github.io/" rel="alternate"></link><link href="https://contemplandoomercado.github.io/feeds/analises-especiais.atom.xml" rel="self"></link><id>https://contemplandoomercado.github.io/</id><updated>2024-08-18T15:30:00-03:00</updated><entry><title>Análise Especial - O portfolio de Ray Dalio</title><link href="https://contemplandoomercado.github.io/avaliando_ray_dalio.html" rel="alternate"></link><published>2024-08-18T15:30:00-03:00</published><updated>2024-08-18T15:30:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2024-08-18:/avaliando_ray_dalio.html</id><summary type="html">&lt;p&gt;Aqui analiso o "All Weather Portfolio", proposto por Ray Dalio.&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Surpresa! Dei um "unpause" no blog! Depois de aproxidamente &lt;a href="{filename}pages/pausa_na_atividades.md"&gt;um ano e meio&lt;/a&gt;,
+consegui arrumar um tempo e montar um estudo especial sobre o portfólio de Ray Dalio,
+personalidade do mercado financeiro que inspirou e inspira muitos,
+os quais me inspiraram a criar esse blog. Sem mais delongas, fiquem
+com o estudo!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ray Dalio é uma figura bastante conhecida no mundo dos investimentos e mercado
+financeiro por várias coisas. As principais delas são seu &lt;a href="https://www.amazon.com.br/Princ%C3%ADpios-Ray-Dalio/dp/8551003429"&gt;livro de princípios&lt;/a&gt; e o seu &lt;a href="https://seekingalpha.com/article/4668995-how-to-build-a-6-percent-yielding-all-weather-portfolio"&gt;"All Weather Portfolio"&lt;/a&gt;,
+que trabalha com ideias ligadas à &lt;a href="https://www.investopedia.com/terms/r/risk-parity.asp"&gt;paridade de risco&lt;/a&gt;. As ideias por trás do portfolio são as seguintes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ele é composto por "classes de ativos" que são descorrelacionadas entre si
+(ou pelo menos próximas disso);&lt;/li&gt;
+&lt;li&gt;A composição do portfolio permite que ele tenha bons resultados em qualquer
+momento econômico (seja ele bonança ou crise).&lt;/li&gt;
+&lt;li&gt;A composição do portfolio permite que ele tenha uma volatilidade reduzida em
+relação às classes de ativos (ou mesmo nos ativos) de individualizadas, logo
+o "risco de investimento" é "minimizado".&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A ideia do post é aqui, então, é a gente "tirar isso a limpo" e ver se a coisa
+realmente bate. Parafraseando &lt;a href="https://www.youtube.com/@IanNevesOficial/videos"&gt;Ian Neves&lt;/a&gt;,
+"começando pelo final", a coisa realmente bate. Bate 100%? Não, mas chega muito
+perto (só não bate 100% "por besteirinha"). Vamos lá?&lt;/p&gt;
+&lt;h2&gt;Primeiros passos&lt;/h2&gt;
+&lt;p&gt;O primeiro passo é saber quais classes de ativos utilizar e suas percentagens
+no portfolio. Segundo &lt;a href="https://seekingalpha.com/article/4668995-how-to-build-a-6-percent-yielding-all-weather-portfolio"&gt;este artigo&lt;/a&gt;, são elas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ações dos EUA (30%)&lt;/li&gt;
+&lt;li&gt;Tesouro Direto dos EUA de longo prazo (40%)&lt;/li&gt;
+&lt;li&gt;Tesouro Direto dos EUA de prazo intermediário (15%)&lt;/li&gt;
+&lt;li&gt;Commodities (7.5%)&lt;/li&gt;
+&lt;li&gt;Ouro (7.5%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vou ficar devendo a referência de onde tirei os tickers que utilizei para
+puxar os dados, mas, respectivamente, são eles: VTI, TLT, IEF, DBC e GLD.
+O artigo do Seeking Alpha que citei também fornece os tickers, porém ele
+foi acessado depois que fiz a análise, para a escrita deste blog (falha 
+minha). De toda forma, é importante destacar que há uma discrepância muito
+grande entre sites quando se fala de quais tickers utilizar. Apesar de tudo
+isso, os tickers que usei são exemplos comuns das classes de ativos utilizadas
+para o portfólio, então vale o uso deles.&lt;/p&gt;
+&lt;p&gt;O próximo passo foi baixar os dados. Para isso, utilizei a biblioteca Python
+&lt;a href="https://pypi.org/project/yfinance/"&gt;yfinance&lt;/a&gt;, que baixa os dados OHLC (Open,
+High, Low, Close) do &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;. O código que
+fiz para esta análise está todo em Python, disponível &lt;a href="https://github.com/contemplandoomercado/analise_portfolio_ray_dalio"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Informação importante: os dados de cada classe de ativos, por causa da
+disponibilidade do Yahoo Finance, tem diferentes "datas de inicio" (apesar de
+terem a mesma "data de fim", que foi 8 de agosto de 2024). A gente vai ver
+mais na frente que foi feita correlação par-a-par, e neste caso acabaram sendo
+utililzados "diferentes intervalos" para cada par, buscando maximizar o tamanho
+do intervalo. Dito isso, a data inicial mas antiga obtida dos dados é 15 de
+junho de 2001 e a mais recente é 6 de junho de 2006. Somente uma classe (Ações
+EUA) tem essa data mais antiga e também uma só (Commodities) tem a mais recente.
+As duas classes de "Tesouro Direto" tem início em 2002 e Ouro tem início em
+2004. Ou seja, as análises de correlação vão pegar períodos variando entre 
+18 e 22 anos.&lt;/p&gt;
+&lt;h2&gt;Processando os dados para a análise&lt;/h2&gt;
+&lt;p&gt;De posse dos dados, a próxima tarefa foi calcular as duas principais métricas
+para fazer a análise: retornos das classes de ativos e correlação. Para cada
+classe, foram calculados retornos diários através do logaritmo natural da 
+divisão do preço de fechamento de cada data sobre o preço de fechamento da
+respectiva data anterior. De posse destes retornos, foram calculadas
+&lt;a href="http://www5.eesc.usp.br/saate/index.php/saate/Indicar-a-T%C3%A9cnica/Associar/2.-%C3%81rvore-de-decis%C3%A3o/Gloss%C3%A1rio/Coeficiente-de-correla%C3%A7%C3%A3o-de-Pearson"&gt;correlações de Pearson&lt;/a&gt;
+entre cada par de classes. Estes mesmos retornos também foram utilizados para
+"tirar a limpo" as ideias ligadas ao desempenho do portfolio.&lt;/p&gt;
+&lt;p&gt;Agora sim vamos "tirar a limpo" as ideias do porfolio de Ray Dalio.&lt;/p&gt;
+&lt;h2&gt;Tirando a limpo a correlação&lt;/h2&gt;
+&lt;p&gt;A ideia das classes de ativos serem descorrelacionadas entre si é justamente
+para que quando uma das classes estiver indo mal, alguma outra consiga
+compensar o prejú. Na prática, só ter a classe não basta, tem que ajustar as
+proporções também, isso é um pilar essencial, por isso citei no início do
+post. Apesar da gente não explorar as proporções nesta análise, nós vamos
+nos utilizar delas nas análises de desempenho, para calcular o desempenho do
+portfólio.&lt;/p&gt;
+&lt;p&gt;Mas beleza, hora de tirar a limpo a questão da correlação:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Correlação entre as classes de ativos" src="https://contemplandoomercado.github.io/images/Special_Analysis_08_2024/correlation_matrix.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 1 - Correlação entre as classes de ativos&lt;/p&gt;
+
+&lt;p&gt;Nota rápida: correlações positivas indicam que os retornos dos pares de
+classes estão na mesma direção. Correlações negativas indicam direções opostas
+(que idealmente é o que queremos, para gerar o equilíbrio da coisa).&lt;/p&gt;
+&lt;p&gt;Um rápido &lt;a href="https://periodicos.ufpe.br/revistas/politicahoje/article/download/3852/3156"&gt;guia&lt;/a&gt; para interpretar os valores: até 0.3 a correlação é fraca, então a
+coisa  está descorrelacionada mesmo. Entre 0.4 e 0.6, a correlação é moderada,
+ou seja, tem um "cheirinho" de correlação começando (esse &lt;a href="https://www.blog.psicometriaonline.com.br/o-que-e-correlacao-de-pearson/"&gt;site&lt;/a&gt; trás umas ilustrações
+legais de conferir esses comportamentos). De 0.7 para frente já era, temos
+correlação na parada.&lt;/p&gt;
+&lt;p&gt;Com base nisso, podemos dizer que no geral, esse lance de ser tudo
+descorrelacionado base quase 100%. Isso porque as duas classes de "Tesouro
+Direto" tem correlação próxima de 1, e os pares ações-commodities e
+commodities-ouro tem correlações moderadas (ou seja, esboça-se um início de 
+correlação na parada). Isso denota que mesmo que você tente abarcar "toda a 
+diversidade do mercado" (que no fundo é o que Dalio tenta fazer), vão ter
+momentos em que "aproxiadamente" esse lance de compensação vai é pro ralo,
+e todo mundo "aproximadamente" ruma para uma direção só (seja alta ou baixa).
+Isso implica que, de certa forma, se você quiser trabalhar com menos classes
+ainda, é possivel.&lt;/p&gt;
+&lt;p&gt;Apesar da grande maioria de pessoas e "gurus" no mercado financeiro, incluindo
+o próprio Dalio, incentivarem a diversificação de investimentos, defendendo
+justamente a questão de minimização da volatilidade/risco, há alguns aqui e
+ali que defendem justamente o oposto. Como diria Buda, "o melhor caminho é
+o do meio". Pela matriz acima, é possível ver que daria para tirar, num
+primeiro momento, uma classe ou outra para garantir o descorrelacionamento
+entre todo mundo.&lt;/p&gt;
+&lt;p&gt;Além dessa matriz, eu também fiz o seguinte: calculei correlações par-a-par
+de classes, desta vez utilizando janelas de 22 dias ("um mês"). A partir destas
+janelas contei quantas vezes a correlação entre cada par ficou acima de 0.5 ou
+acima de 0.7. Segue o resultado:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vezes em que os pares de classes tiveram correlação moderada ou forte" src="https://contemplandoomercado.github.io/images/Special_Analysis_08_2024/times_corr_higher_than_x.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 2 - Número de vezes em que os pares de classes tiveram correlação moderada ou forte&lt;/p&gt;
+
+&lt;p&gt;Como podemos observar acima, ao longo dos últimos 20 anos houve uma quantidade
+não-desprezível de vezes em que as classes rumaram numa mesma direção. Apesar
+disso, podemos destacar os pares "Tesouro Direto (Longo ou Intermediário)-Commodities",
+com uma quantidade quase nula de vezes, e o par "Tesouro Direto Intermediário-Ações",
+com uma quantidade bem pequena também. Isso reforça a ideia de que talvez não se
+precise montar um portfolio com muita coisa diferente, principalmente se
+você for pessoa física com não muita grana (mas não tomem isso como recomendação).&lt;/p&gt;
+&lt;p&gt;Agora vamos tirar a limpo questões ligadas ao desempenho do portfolio.&lt;/p&gt;
+&lt;h2&gt;Desempenho do portfolio&lt;/h2&gt;
+&lt;p&gt;Para calcular o desempenho do portfolio como um todo, primeiro eu "alinhei"
+os retornos de cada classe pela data. Este alinhamento faz com que os dados
+se iniciem em 2006, pelos motivos comentados anteriormente na parte das
+correlações. Para o conjunto de retornos por data, multipliquei cada retorno
+pela sua respectiva percentagem e depois somei tudo. Dessa forma, temos os
+retornos do portfólio por data, e assim podemos fazer comparações com as
+outras classes.&lt;/p&gt;
+&lt;p&gt;A primeira coisa que vamos "tirar a limpo" é se o portfolio realmente tem
+bom desempenho em qualquer momento do mercado. Para isso, vamos avaliar se
+ele pelo menos fica no positivo (entre muitas aspas) sempre. Para avaliar
+isto, apliquei &lt;a href="https://www.geeksforgeeks.org/window-sliding-technique/"&gt;janelas deslizantes&lt;/a&gt; de 20 ("1 mês"), 60 ("3 meses"), 252 ("1 ano"), 
+756 ("3 anos"), 1260 ("5 anos"), 2520 ("10 anos") e 3780 ("15 anos") dias,
+usando a função soma como agregação. Com isso temos o retorno do portfólio
+em "todos os possíveis períodos contínuos de cada janela". A tabela 1 ilustra
+as percentagens de períodos em que o portfólio teve resultado positivo, alguma
+das classses teve resultado positivo (no mesmo período) e se o portfólio foi
+negativo e alguma classe foi positiva em um mesmo período.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Percentagens de resultados positivos para o portfólio comparado com outras classes" src="https://contemplandoomercado.github.io/images/Special_Analysis_08_2024/table_1.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Tabela 1 - Percentagens de resultados positivos para o portfólio comparado com outras classes&lt;/p&gt;
+
+&lt;p&gt;Aqui temos um comportamento curioso: quando a gente "aumenta o zoom" colocando
+a janela para um período bem pequeno, vemos que o portfólio sofre consideravelmente,
+mas à medida que vamos "diminuindo o zoom" o efeito do retorno vai sendo visível, ao
+ponto que na janela de 1260 dias (5 anos) o porfólio sempre apresenta resultado
+positivo, &lt;strong&gt;independente da início desde 2006&lt;/strong&gt;. O mesmo vale para classes "de
+forma geral" (numa janela de 10 anos sempre alguma delas vai estar no positivo).
+Isso mostra que portfólio é um investimento para se segurar e trabalhar no médio
+e longo prazo, não no curto (o que, de certa forma, "é o esperado").&lt;/p&gt;
+&lt;p&gt;Outra tabela que montei é a percentagem de vezes em que cada classe tem o maior
+retorno em cada tipo de janela de tempo diferente (Tabela 2).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Percentagens de vezes em que cada classe tem o maior retorno em cada janela de tempo" src="https://contemplandoomercado.github.io/images/Special_Analysis_08_2024/table_2.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Tabela 2 - Percentagens de vezes em que cada classe tem o maior retorno em cada janela de tempo&lt;/p&gt;
+
+&lt;p&gt;Aqui podemos observar algumas coisas interessantes: independente da janela de tempo,
+a classe "Ações EUA" sempre tem a maior percentagem melhor desempenho, chegando a
+ser a única com melhor desempenho na janela de 15 anos. Além disso, a classe 
+"Tesouro Direto EUA de Longo Prazo" sempre abocanha alguma fatia até a janela de 
+10 anos, e o Ouro também. "Tesouro Direto EUA de Prazo Intermediario" sempre tem
+uma fatia bem pequena até a janela de 3 anos (curiosamente, os prazos dos títulos
+intermediários presentes no IEF variam de 3 a 10 anos, então isso explica um pouco).
+E finalmente, olhando para a tabela, é como se houvesse um "comportamento 
+de &lt;a href="https://en.wikipedia.org/wiki/Fat-tailed_distribution"&gt;cauda longa&lt;/a&gt; nela". Além
+disso, percebam que Commodities, Títulos Longos e Ouro tem percentagens próximas
+entre si nas janelas até 1 ano.&lt;/p&gt;
+&lt;p&gt;Para fazer a reflexão sobre isso, trago de volta as percentagens de alocação
+do portfólio:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ações dos EUA (30%)&lt;/li&gt;
+&lt;li&gt;Tesouro Direto dos EUA de longo prazo (40%)&lt;/li&gt;
+&lt;li&gt;Tesouro Direto dos EUA de prazo intermediário (15%)&lt;/li&gt;
+&lt;li&gt;Commodities (7.5%)&lt;/li&gt;
+&lt;li&gt;Ouro (7.5%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Não por acaso ações e títulos longos tem o maior percentual: ações é o carro
+chefe do rendimento, seguido dos títulos longos (pelo menos pelo que vemos
+na tabela). Esse balanço Ações vs Títulos é um modelo interessante ao ponto
+de existirem modelos de portfólio que envolvem somente estas duas classes.
+E de fato, a gente observa que a correlação entre eles é negativa (-0.33), e
+que são "raros" os momentos que eles apresentam alta correlação (vide Figura 2).
+Dessa forma, é natural 70% do portfólio ser composto por eles. Eu suponho que
+adicionar as outras classes acabe sendo muito mais com um objetivo de fazer
+proteção e diminuir ainda mais volatilidade do que necessariamente aumentar
+os retornos.&lt;/p&gt;
+&lt;p&gt;Para fechar este post, trago um painel simples de métricas e curvas de retorno
+do portfólio e de cada classe individualmente (considerando todo o período
+desde 2006):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Painel de métricas de desempenho de portfólio e classes individualizadas" src="https://contemplandoomercado.github.io/images/Special_Analysis_08_2024/big_panel.png"&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;Figura 3 - Painel de métricas de desempenho de portfólio e classes individualizadas&lt;/p&gt;
+
+&lt;p&gt;Conforme esperado, o portfólio apresenta uma volatilidade menor que a de todas
+as demais classes com exceção dos títulos de prazo intermediário. O retorno
+médio por ano encontra-se maior que os títulos e menor que ouro e ações, o que
+também é algo esperado dada sua composição. Considerando que as taxas de juros
+americanas &lt;a href="https://fred.stlouisfed.org/series/FEDFUNDS"&gt;estão na faixa dos 5.5%&lt;/a&gt;
+em agosto de 2024, dá para se ver que o portfólio na média "deixa a pessoa no 0
+a 0", isso se não tiver um "pequeno lucro". Olhando para as curvas, nota-se que
+o portfólio só perde justamente para ações e para o ouro. O que se pode estranhar
+a princípio é que, apesar de tudo isso, o drawdown máximo do portfólio foi maior
+que o de todas as classes com exceção dos títulos de médio prazo. Uma explicação
+que poderiamos dar para isso seria justamente a combinação dos ativos, ao dar 
+poder de retorno, também contribui para o prejuízo. Queiramos ou não são 40%
+alocados em ações, então acaba sendo uma contribuição considerável.&lt;/p&gt;
+&lt;h2&gt;Para fechar o post&lt;/h2&gt;
+&lt;p&gt;O portfólio do Ray Dalio realmente "cumpre" com a sua ideia de diminuir o risco
+em comparação às classes de ativos individualizadas e oferece um retorno médio
+interessante se comparado com a "renda fixa". Mesmo apresentando momentos de 
+prejuízo no curto prazo, o portfólio no longo demonstra ser realmente rentável.
+Além disso, a análise de correlação mostrou que se quiser, dá para "enxugar" ele
+ainda mais. E pensando num cenário de pessoa física montando seu próprio portfólio,
+a máxima "menos é mais" é essencial.&lt;/p&gt;
+&lt;p&gt;Apesar de não ter sido explorado aqui, os percentuais de alocação dados para
+classe de ativos são um aspecto tão importante quanto as próprias classes, uma
+vez que são eles quem trazem a diminuição da volatilidade. Por causa disso, mesmo
+que se resolva tirar uma classe ou duas (exemplo, Títulos de prazo intermediário e
+commodities), é necessário estipular novos percentuais para que a propriedade de
+volatilidade reduzida permaneça.&lt;/p&gt;
+&lt;p&gt;No fim das contas, é um portfólio mais voltado para quem coloca "segurança" como
+prioridade na hora de investir, mas não quer deixar de aproveitar bons retornos
+trazidos por classes mais "agressivas". Um aspecto interessante deste portfólio
+é que ele não utiliza a classe dos REITs ("fundos imobiliários") na sua composição,
+e não "isola", por exemplo, o petróleo, tal qual fez com o ouro. Tais "substituições"
+(ou "adições") são pontos interessantes para se analisar.&lt;/p&gt;
+&lt;p&gt;Para fechar, fica o lembrete: não tem essa análise como recomendação de compra
+ou venda. É como dizem, "retornos passados não garantem lucros futuros". Além
+disso, investir em renda variável involvem pagar uma  série e taxas e impostos
+que não foram cobertos nesta análise, e que na prática  afetam e muito a
+rentabilidade do portfólio. Façam seus próprios estudos também e procurem
+especialistas do teu banco ou da tua corretora para ajuda antes de tomarem
+qualquer decisão.&lt;/p&gt;
+&lt;p&gt;Parafraseando o que falo na página de &lt;a href="https://contemplandoomercado.github.io/pages/metodologia_de_analise.html"&gt;página de metodologia&lt;/a&gt;,
+caso vocês notem algum erro, ou tenham alguma dúvida sobre alguma coisa neste post e nos outros,
+não deixem de entrar em contato comigo pelo e-mail contemplandoomercado@gmail.com.
+A propósito, caso queiram ver por aqui algum novo estudo, é só falarem também.&lt;/p&gt;
+&lt;h3&gt;Epílogo&lt;/h3&gt;
+&lt;p&gt;Espero que tenham curtido esse "unpause" no blog. Infelizmente não posso prometer voltar
+com as análises mensais de antes, uma vez que minha capacidade de fazer os posts de forma
+recorrente (por hora) foi para o espaço. Por causa disso, o blog vai acabar funcionando
+no "modo golfinho" (aparece, faz uma gracinha e some) trazendo algum estudo especial.&lt;/p&gt;
+&lt;p&gt;Até a próxima postagem!&lt;/p&gt;</content><category term="Analises Especiais"></category><category term="analises_especiais"></category></entry><entry><title>Análise Especial - Sazonalidade das classes de ativos</title><link href="https://contemplandoomercado.github.io/analise_especial_2022_07_sazonalidade.html" rel="alternate"></link><published>2022-07-28T11:40:00-03:00</published><updated>2022-07-28T11:40:00-03:00</updated><author><name>Inácio Medeiros</name></author><id>tag:contemplandoomercado.github.io,2022-07-28:/analise_especial_2022_07_sazonalidade.html</id><summary type="html">&lt;p&gt;Análise de sazonalidade das classes de ativos ao longo do tempo&lt;/p&gt;</summary><content type="html">&lt;p&gt;Galera, as análises do mês de Julho de 2022 vão demorar um pouco mais sairem,
 muito provavelmente em torno da segunda quinzena de agosto. Por causa disso,
 deixo para vocês uma "análise de sazonalidade" das classes de ativos a partir
 de 2000.&lt;/p&gt;
