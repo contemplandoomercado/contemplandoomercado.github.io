@@ -52,7 +52,170 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Aug 18, 2024</h4>
+        <div id="content">            <h4 class="date">Sep 01, 2024</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://contemplandoomercado.github.io/analise_fato_11_rama_cont.html" rel="bookmark" title="Permanent Link to &quot;Análise Especial - O Fato Estilizado número 11 de Rama Cont&quot;">Análise Especial - O Fato Estilizado número 11 de Rama Cont</a>
+                </h2>
+
+                
+                
+
+                <p>Deparei-me recentemente com este <a href="https://www.instagram.com/kadimaasset/p/C-u0Z0ltzpZ/">post do Kadima Asset Management no Instagram</a>
+que falava sobre <em>Fatos Estilizados</em>. Este termo curioso é referente a um <a href="http://finance.martinsewell.com/stylized-facts/dependence/Cont2001.pdf">artigo</a> do pesquisador Rama Cont que fala sobre propriedades estatísticas comuns a diversos ativos (e classes)
+do mercado financeiro. O artigo lista 11 fatos estilizados, dos quais o último (dentre outros) me chamou à atenção, e aqui trago a tradução
+trazida pelo post do Kadima Asset Management:</p>
+<blockquote>
+<p><strong>Assimetria nas escalas de tempo</strong>: <em>Medidas de volatilidade em escalas de tempo mais amplas preveem a volatilidade em escalas de tempo mais curtas do que o contrário.</em></p>
+</blockquote>
+<p>Este fato estilizado me chamou à atenção por ser um fato que podemos analisar de maneira relativamente simples (e, claro, empírica). Por causa
+disso, resolvi "tirar isso a limpo" e fazer uma análise de se isso acontece ou não.</p>
+<h2>Primeiro passo: selecionando os ativos e coletando os dados</h2>
+<p>Resolvi testar o fato estilizado em ativos relacinados a índices de bolsas de valores, tesouro americano, commodities, ouro e Bitcoin. A lista
+abrangendo os tickers de cada ativo e uma breve descrição deles pode ser conferida abaixo, montada pelo <a href="https://www.perplexity.ai">Perplexity</a> (prompt <a href="https://www.perplexity.ai/search/monte-uma-tabela-em-markdown-e-ml2ufIOYSb.p.1TP2S2HwQ">aqui</a>).</p>
+<p>Aqui está a tabela em markdown, escrita em língua portuguesa, com os tickers solicitados:</p>
+<table>
+<thead>
+<tr>
+<th>Ticker</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/%5EGSPC">^GSPC</a></td>
+<td>Índice S&amp;P 500, que representa as 500 maiores empresas de capital aberto dos EUA. É considerado um dos principais indicadores do mercado de ações americano.</td>
+</tr>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/%5EBVSP">^BVSP</a></td>
+<td>Índice Bovespa, principal indicador de desempenho das ações negociadas na B3, a bolsa de valores brasileira. Reflete o comportamento das principais ações do mercado.</td>
+</tr>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/%5EN225">^N225</a></td>
+<td>Índice Nikkei 225, o principal índice da Bolsa de Valores de Tóquio. Representa as 225 maiores empresas japonesas listadas na primeira seção da bolsa.</td>
+</tr>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/%5EFTSE">^FTSE</a></td>
+<td>FTSE 100, índice das 100 empresas com maior capitalização listadas na Bolsa de Londres. É um importante indicador do mercado de ações do Reino Unido.</td>
+</tr>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/%5EGDAXI">^GDAXI</a></td>
+<td>DAX 40, índice das 40 maiores empresas da Bolsa de Frankfurt. Representa o desempenho das principais companhias da economia alemã.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/VWO/">VWO</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice que mede o retorno de ações de empresas localizadas em países de mercados emergentes.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/AGG/">AGG</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice que mede o mercado total de títulos de renda fixa com grau de investimento e tributáveis nos EUA.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/GLD/">GLD</a></td>
+<td>ETF que busca refletir o desempenho do preço do ouro. Oferece aos investidores uma forma de investir em ouro sem a necessidade de armazenamento físico.</td>
+</tr>
+<tr>
+<td><a href="https://finance.yahoo.com/quote/BTC-USD">BTC-USD</a></td>
+<td>Par de negociação Bitcoin/Dólar americano. Bitcoin é a primeira e mais conhecida criptomoeda descentralizada do mundo.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/TLT/">TLT</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice de títulos do Tesouro dos EUA com vencimento de 20 anos ou mais.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/IEF/">IEF</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice de títulos do Tesouro dos EUA com vencimento entre 7 e 10 anos.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/VTI/">VTI</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice que mede o retorno de investimento de todo o mercado de ações dos EUA.</td>
+</tr>
+<tr>
+<td><a href="https://etfdb.com/etf/DBC/">DBC</a></td>
+<td>ETF que busca acompanhar o desempenho de um índice composto por contratos futuros de 14 commodities amplamente negociadas.</td>
+</tr>
+</tbody>
+</table>
+<p>Assim como na <a href="{filename}analise_especial_2024_08">análise do portfolio de Ray Dalio</a>, utilizei aqui a biblioteca Python
+<a href="https://pypi.org/project/yfinance/">yfinance</a> para baixar os dados OHLC (Open, High, Low, Close) do <a href="https://finance.yahoo.com/">Yahoo Finance</a>
+referentes a cada ticker (a propósito, os códigos da análise estão disponíveis <a href="https://github.com/contemplandoomercado/analise_volatilidade_rama_cont">aqui</a>). Feito isso, vamos ao nosso segundo passo:</p>
+<h2>Calculando e avaliando a volatilidade</h2>
+<p>Tradicionalmente, a volatidade é calculada como sendo o produto entre o desvio-padrão dos retornos de um ativos em um determinado período e
+a raiz quadrada do período utilizado (para saber mais, veja <a href="https://www.investopedia.com/terms/v/volatility.asp">este artigo</a> da 
+Investopedia e <a href="https://seekingalpha.com/article/4460422-what-is-volatility">este artigo</a> do Seeking Alpha). E eu digo a você: eu utilizei
+esta fórmula para calcular a volatilidade e fazer a análise. No entanto, ler o artigo de Rama Cont me fez "virar a chave" (finalmente) para um 
+detalhe que eu em parte já entendia mas que nunca me tinha caído a ficha até então. A grosso modo, dados de mercado financeiro
+<strong>não seguem a distribuição normal (Gaussiana)</strong>. Até aí tudo bem, quem mexe com finanças quantitativas já está careca de saber isso (inclusive 
+o artigo traz boas discussões sobre isso e inclusive o autor dedica boa parte do trabalho às "caudas longas"). E aí vem o pulo do gato: a forma 
+como o desvio-padrão tradicionamente calculado (confira <a href="https://online.stat.psu.edu/stat414/lesson/8/8.4">esta lição</a> da Penn State University 
+para saber mais) leva consideração que os dados justamente seguem a distribuição normal! E agora?</p>
+<p>Eu tive então a seguinte ideia: ao invés de calcular a raiz-quadrada da variância (forma tradicional), e depois multiplicar pela raiz do 
+período, eu calculei a volatilidade como sendo a variação entre os "quantis" (ver <a href="https://www.investopedia.com/terms/q/quintile.asp">este post</a> para saber mais) de 95% e 5%, respectivamente, dos retornos no período. O cálculo de variação que usei foi basicamente o logartimo natural 
+da divisão entre o quantil de 95% e o de 5%.</p>
+<p>A ideia por trás disso é: períodos com alta volatilidade irão apresentar intervalos de valores maiores para a divisão definida acima, enquanto 
+que períodos de volatilidade pequena irão assumir intervalor menores. O uso do logaritmo natural da divisão de valores inclusive é uma fórmula 
+tradicionalmente utilizada em finanças quantitativas para calcular retornos, uma vez que produz resultados simétricos (ex: o "log_natural(2/3)", tirando o sinal negativo, vai produzir o mesmo resultado que "log_natural(3/2)").</p>
+<p>Para poder avaliar e comaparar o poder preditivo de volatilidades longas e curtas, eu decidi me utilizar de uma métrica muito comum em 
+Aprendizado de Máquina chamada <a href="https://pt.wikipedia.org/wiki/Informa%C3%A7%C3%A3o_m%C3%BAtua">Informação Mútua</a>, que justamente traz uma forma 
+de quantificar o poder preditivo de uma característica sobre outra. Apesar dela ser mais comumente utilizada em problemas nos quais você quer 
+prever uma categoria, aqui a gente quer prever um número (para saber mais sobre, veja <a href="https://www.datacamp.com/blog/classification-machine-learning">este link</a>). Ainda assim, a biblioteca que usei para calcular ela tem um <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html">módulo</a> adaptado para utilizá-la em problemas de "prever um número" (inclusive tem <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0087357">artigo</a> que explica a diferença de uso). Observação final 
+importante: quanto maior for o valor da informação mútua, maior será o poder preditivo da volatilidade. Ou seja: <strong>nossa hipótese aqui é que volatilidades longas terão informação mútua maior do que volatilidades curtas</strong>.</p>
+<p>Agora que sabemos como fiz para calcular a volatilidade, vamos ao nosso terceiro passo:</p>
+<h2>Fazendo os experimentos</h2>
+<p>Para testar se uma volatilidade longa consegue prever uma volatilidade curta melhor do que o inverso, a gente precisa elicitar três coisas: 
+quais períodos para volatilidades curtas utilizar, quais períodos para volatilidades longas utilizar, e para quais períodos futuros (quantos 
+dias frente) testar. E aqui entra o ponto talvez mais crucial e delicado da análise: no artigo de Rama Cont, ele chama de volatilidade curta 
+aquela com período de 30 <strong>minutos</strong>, e de longa aquela com período de <strong>1 dia</strong>. Quando eu faço análises, eu utilizo normalmente dados diários 
+(que foi o caso aqui),e infelizmente só vim me atentar que há uma forma de baixar dados de intra-day usando o yfinance no momento da escrita 
+deste post, então deixo como dever de casa analisar intra-day versus diário. As volatilidades curtas e longas, assim como os períodos futuros para testar foram os seguintes:</p>
+<ul>
+<li>Volatilidade curtas: 2 dias, 3 dias, 5 dias e 10 dias</li>
+<li>Volatilidade longas: 1 mês, 3 meses, 6 meses e 1 ano (aqui eu considero "1 mês" como sendo 21 dias, e os demais períodos como sendo múltiplos de 21 dias. "1 ano" corresponderia a 252 dias (21 dias * 12 meses))</li>
+<li>Períodos futuros: 1 dia, 3 dias, 5 dias, 10 dias, 1 mês, 3 meses e 6 meses (na parte do mês, mesmo esquema de antes)</li>
+</ul>
+<p>A ideia então foi calcular a informação mútua de todas as combinações possíveis dos valores acima e comparar os pares de volatilidades (por exemplo, a informação mútua de uma volatilidade de 1 mês sobre a volatilidade de 2 dias do dia seguinte, e vice-versa; a informação mútua da volatilidade de 1 mês sobre a volatilidade de 3 dias do dia seguinte, e vice-versa; e etc.). Detalhe importante, vamos ver isso para <strong>cada ativo</strong> da tabela da seção do Primeiro Passo.</p>
+<h2>Resultado do experimento (e discussão sobre)</h2>
+<p>Uma vez que a quantidade de combinações entre volatilidades e períodos futuros é bem alta, resolvi sumarizar os resultados em duas imagens. A primeira, a seguir, ilustra, para cada ticker de ativo da tabela do início deste post, as distribuições de Informação Mútua tanto para as Volatilidades Longas predizendo as Curtas (boxplots azuis) como para o inverso (boxplots laranjas), isso agregando todos os resultados para todos os períodos futuros.</p>
+<p><img alt="Distribuição de Informações Mútuas" src="https://contemplandoomercado.github.io/images/Special_Analysis_09_2024/summary_comparison.png"></p>
+<p style="text-align: center;">Figura 1 - Distribuição das Informações Mútuas obtidas para Volatilidades Longas predizendo Volatilidades Curtas e vice-versa</p>
+
+<p>Conforme podemos observar, o resultado obtido é o "exato oposto" do que o fato estilizado diz: as volatilidades curtas possuem um poder preditivo melhor do que as longas! E pior: em ativos como o AGG e o VTI, a melhor Informação Mútua obtida para uma volatilidade longa bate no quartil de 25% da volatidade curta.</p>
+<p>Aí a gente pode se perguntar: será que, para algum período específico, poderíamos ver volatilidades longas se saindo melhor que as curtas? Nisso, temos a segunda imagem, desta vez mostrando a média das Informações Mútuas dentre os períodos futuros para cada ativo:</p>
+<p><img alt="Médias de Informações Mútuas" src="https://contemplandoomercado.github.io/images/Special_Analysis_09_2024/summary_comparison.2.png"></p>
+<p style="text-align: center;">Figura 2 - Média das Informações Mútuas obtidas para Volatilidades Longas predizendo Volatilidades Curtas e vice-versa</p>
+
+<p>E a resposta é clara: <strong>não</strong>. Em qualquer período futuro, a volatilidade curta tem poder preditivo melhor que a longa.</p>
+<p>Nisso, temos alguns pontos a considerar. Primeiro, as janelas de tempo utilizadas aqui estão todas na faixa de dias, semanas e meses, enquanto que o fato estilizado 
+original preconizada uma comparação entre minutos e dias. Se a gente parar para pensar, a diferença de escala neste segundo caso é bem maior do que no primeiro caso, então só por aí já dá para desconfiar que o resultado pode sair diferente. Um segundo ponto é que estamos trabalhando aqui com volatilidade como sendo a variação entre dois quantis, quando normalmente ela é calculada como o produto do desvio-padrão pela raiz do tempo. Aí cabe um detalhe importante: originalmente este estudo foi feito utilizando este cálculo original, e o resultado <em>não mudou</em> quando troquei a fórmula. </p>
+<p>Dias depois de eu ter fechado as duas imagens acima para começar a escrever este post, eu encontrei <a href="https://bagrow.com/pdf/ratliff-crain-2023-revisiting-v1.pdf">este artigo</a> em que os autores tiraram a limpo <strong>todos os 11 fatos estilizados</strong> do artigo do Rama Cont, em que 8 deles foram devidamente 
+comprovados, 1 foi "não foi confirmado", e outro teve "suporte fraco". O fato estilizado que teve o "suporte fraco" foi justamente o que analisamos aqui, o que mostra 
+que "não estamos sozinhos nessa". E isso porque não só os dados utilizados pelos autores são completamente diferentes do que usei aqui (eles usaram dados de intra-day 
+e de diário de 10 ações, dados estes obtidos diretamente de corretoras dos Estados Unidos), bem como a metodologia usada para avaliar também foi completamente 
+diferente.</p>
+<p>Apesar disso, ele trazem uma observação interessante: o paper de Rama Cont foi lançado em 2001. Desde então, a regulação americana de compra e venda de ativos em 
+bolsa mudou drasticamente (você avalie no Brasil). Por causa disso, é de certa forma natural que a dinâmica das negociações de ativos, e mesmo das flutuações, 
+também tenha mudado, afetado em algum ponto o comportamento estatístico destas flutuações. Além disso, é importante considerar que a dinâmica do mercado de renda 
+variável é fruto não só do seu contexto histórico mas também do comportamento e fator humano, que aliado às mudanças nas legislações, muda a forma de operação.</p>
+<h2>Epílogo</h2>
+<p>Foi muito curioso ver que uma simples análise não só levou a resultados em direções opostas às de um paper seminal, bem como ver que outro estudo conduzido de forma 
+completamente diferente chegou à uma observação muito próxima. Este tipo de resultado tem um impacto adicional ainda, pois, no artigo de Cont, estes fatos estilizados 
+também se configuram como propriedades das quais modelos que simulam a flutuação de preços de ativos deveriam ter. Como o tempo passou e a legislação mudou, vemos que 
+realmente é necessário dar uma "reciclada" nestas propriedades. Além disso, é importante considerar que o artigo é de 2001 (23 anos atrás em relação ao tempo da 
+escrita deste post). Em ciência, artigos com idade a partir de <strong>5 anos</strong> já são considerados "antigos", sendo necessário estudar artigos mais recentes para checar 
+as novidades. Por conta disso, é natural que conclusões obtidas há um bom tempo sejam refutadas/corrigidas/etc.</p>
+<p>Conforme mencionei no início do post, os códigos e dados da análise estão disponíveis <a href="https://github.com/contemplandoomercado/analise_volatilidade_rama_cont">neste link</a>, e para quem curte analisar dados, fica como dever de casa não só explorar essa análise desta vez considerando dados de intra-day, 
+como também testar em outros ativos (ações individuais, outros ETFs etc.), bem como verificar se alguma volatilidade longa individual conseguiu ainda assim ter Informação Mútua melhor que alguma Volatilidade Curta. Outra coisa a se testar seria trocar a métrica de avaliação: ao invés de usar Informação Mútua, usar correlação, por exemplo.</p>
+<p>Até a próxima postagem!</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://contemplandoomercado.github.io/analise_fato_11_rama_cont.html">posted at 09:00</a>
+                    &nbsp;&middot;&nbsp;<a href="https://contemplandoomercado.github.io/category/analises-especiais.html" rel="tag">Analises Especiais</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://contemplandoomercado.github.io/tag/analises_especiais.html" class="tags selected">analises_especiais</a>
+                </div>
+            </article>            <h4 class="date">Aug 18, 2024</h4>
 
             <article class="post">
                 <h2 class="title">
